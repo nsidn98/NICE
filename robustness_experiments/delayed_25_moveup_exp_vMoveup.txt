@@ -1,0 +1,4866 @@
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+________________________________________________________________________________
+||                                 Arguments                                  ||
+________________________________________________________________________________
+|| flight_distribution_path: pilotRLEnv/data/flight_distribution.json         ||
+|| tr_path: pilotRLEnv/data/Minimized Dataset - All Months/training_requirements.csv||
+|| sim_distribution_path: pilotRLEnv/data/sim_distribution.json               ||
+|| folder: pilotRLEnv/data/Minimized Dataset - All Months/                    ||
+|| flight_data: LocalMissions.csv                                             ||
+|| sim_data: Sims.csv                                                         ||
+|| manual_event_load: False                                                   ||
+|| num_pilots: 87                                                             ||
+|| PA_look_ahead: 7                                                           ||
+|| num_event_types: 13                                                        ||
+|| normalise_state: False                                                     ||
+|| use_pa_matrix: False                                                       ||
+|| modify_terminal_PA: True                                                   ||
+|| use_training_req: True                                                     ||
+|| include_moveup_buffer_vec: False                                           ||
+|| use_event_type: True                                                       ||
+|| pilot_place_wt: 1                                                          ||
+|| buffer_weight: 0.0                                                         ||
+|| moveup_weight: 1.0                                                         ||
+|| mask_actions: True                                                         ||
+|| no_valid_moves: no valid                                                   ||
+|| illegal_action: no illegal                                                 ||
+|| max_duration: 7                                                            ||
+|| avg_assignments_week: 80                                                   ||
+|| flight_density: 1                                                          ||
+|| START_DATE: 2019-06-15                                                     ||
+|| END_DATE: 2020-01-02                                                       ||
+|| seed: 0                                                                    ||
+|| steps_per_epoch: 4000                                                      ||
+|| epochs: 5000                                                               ||
+|| gamma: 0.99                                                                ||
+|| clip_ratio: 0.2                                                            ||
+|| pi_lr: 0.0003                                                              ||
+|| vf_lr: 0.001                                                               ||
+|| train_pi_iters: 80                                                         ||
+|| train_v_iters: 80                                                          ||
+|| lam: 0.97                                                                  ||
+|| max_ep_len: 1000                                                           ||
+|| target_kl: 0.01                                                            ||
+|| save_freq: 100                                                             ||
+|| num_test_rollouts: 10                                                      ||
+|| eval_freq: 10000                                                           ||
+|| dryrun: False                                                              ||
+|| cpu: 50                                                                    ||
+|| log_losses: False                                                          ||
+|| hid: 64                                                                    ||
+|| l: 2                                                                       ||
+________________________________________________________________________________
+Start solving
+
+Objective value = 28.944252133369446
+Problem solved in 231.000000 milliseconds
+Problem solved in 309 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 131
+moveup tuples built, create and constrain vars:
+len movup tuples: 18323
+Vars created and constrained
+Start solving
+
+Objective value = 727.0
+Problem solved in 1896.000000 milliseconds
+Problem solved in 18305 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 423.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -92.0
+Problem solved in 424.000000 milliseconds
+Problem solved in 63 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 472.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.516638465225697
+Problem solved in 328.000000 milliseconds
+Problem solved in 560 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 128
+moveup tuples built, create and constrain vars:
+len movup tuples: 19535
+Vars created and constrained
+Start solving
+
+Objective value = 709.0
+Problem solved in 2701.000000 milliseconds
+Problem solved in 14712 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 513.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -102.0
+Problem solved in 488.000000 milliseconds
+Problem solved in 87 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 569.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.325830802321434
+Problem solved in 179.000000 milliseconds
+Problem solved in 299 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 86
+moveup tuples built, create and constrain vars:
+len movup tuples: 12981
+Vars created and constrained
+Start solving
+
+Objective value = 443.0
+Problem solved in 1494.000000 milliseconds
+Problem solved in 12247 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 321.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 319.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 322.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.512609153985977
+Problem solved in 177.000000 milliseconds
+Problem solved in 452 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 75
+moveup tuples built, create and constrain vars:
+len movup tuples: 11176
+Vars created and constrained
+Start solving
+
+Objective value = 366.0
+Problem solved in 1603.000000 milliseconds
+Problem solved in 16346 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 330.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -76.0
+Problem solved in 328.000000 milliseconds
+Problem solved in 87 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 377.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.482528418302536
+Problem solved in 182.000000 milliseconds
+Problem solved in 270 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 63
+moveup tuples built, create and constrain vars:
+len movup tuples: 7600
+Vars created and constrained
+Start solving
+
+Objective value = 315.0
+Problem solved in 1256.000000 milliseconds
+Problem solved in 11092 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value =Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+ -0.0
+Problem solved in 362.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -68.0
+Problem solved in 322.000000 milliseconds
+Problem solved in 63 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 325.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 22.083559334278107
+Problem solved in 193.000000 milliseconds
+Problem solved in 248 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 105
+moveup tuples built, create and constrain vars:
+len movup tuples: 19161
+Vars created and constrained
+Start solving
+
+Objective value = 723.0
+Problem solved in 2023.000000 milliseconds
+Problem solved in 12562 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 441.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -84.0
+Problem solved in 402.000000 milliseconds
+Problem solved in 66 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 427.000000 milliseconds
+Problem solved in 7 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 25.003898322582245
+Problem solved in 140.000000 milliseconds
+Problem solved in 345 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 77
+moveup tuples built, create and constrain vars:
+len movup tuples: 10628
+Vars created and constrained
+Start solving
+
+Objective value = 416.0
+Problem solved in 893.000000 milliseconds
+Problem solved in 8291 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 296.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -70.0
+Problem solved in 339.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 298.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.131358563899994
+Problem solved in 149.000000 milliseconds
+Problem solved in 394 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 73
+moveup tuples built, create and constrain vars:
+len movup tuples: 10606
+Vars created and constrained
+Start solving
+
+Objective value = 420.0
+Problem solved in 994.000000 milliseconds
+Problem solved in 10053 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 315.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -78.0
+Problem solved in 313.000000 milliseconds
+Problem solved in 63 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 320.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.310528978705406
+Problem solved in 194.000000 milliseconds
+Problem solved in 419 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 103
+moveup tuples built, create and constrain vars:
+len movup tuples: 14329
+Vars created and constrained
+Start solving
+
+Objective value = 508.0
+Problem solved in 1020.000000 milliseconds
+Problem solved in 5735 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 363.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 311.000000 milliseconds
+Problem solved in 50 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 312.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.189863488078117
+Problem solved in 111.000000 milliseconds
+Problem solved in 332 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 47
+moveup tuples built, create and constrain vars:
+len movup tuples: 6893
+Vars created and constrained
+Start solving
+
+Objective value = 259.0
+Problem solved in 631.000000 milliseconds
+Problem solved in 5281 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 232.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 232.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 234.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.969070374965668
+Problem solved in 105.000000 milliseconds
+Problem solved in 344 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 25
+moveup tuples built, create and constrain vars:
+len movup tuples: 4987
+Vars created and constrained
+Start solving
+
+Objective value = 200.0
+Problem solved in 575.000000 milliseconds
+Problem solved in 5605 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 214.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 206.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 214.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.64701208472252
+Problem solved in 119.000000 milliseconds
+Problem solved in 349 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 58
+moveup tuples built, create and constrain vars:
+len movup tuples: 8663
+Vars created and constrained
+Start solving
+
+Objective value = 327.0
+Problem solved in 752.000000 milliseconds
+Problem solved in 8028 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 251.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -60.0
+Problem solved in 259.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 265.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 22.017073318362236
+Problem solved in 142.000000 milliseconds
+Problem solved in 207 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 120
+moveup tuples built, create and constrain vars:
+len movup tuples: 17012
+Vars created and constrained
+Start solving
+
+Objective value = 560.0
+Problem solved in 990.000000 milliseconds
+Problem solved in 8765 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 286.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -66.0
+Problem solved in 287.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 287.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.866233080625534
+Problem solved in 129.000000 milliseconds
+Problem solved in 204 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 68
+moveup tuples built, create and constrain vars:
+len movup tuples: 10391
+Vars created and constrained
+Start solving
+
+Objective value = 354.0
+Problem solved in 984.000000 milliseconds
+Problem solved in 8273 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 298.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 303.000000 millisecondsAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+Problem solved in 46 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 304.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 26.065304592251778
+Problem solved in 226.000000 milliseconds
+Problem solved in 597 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 116
+moveup tuples built, create and constrain vars:
+len movup tuples: 18432
+Vars created and constrained
+Start solving
+
+Objective value = 646.0
+Problem solved in 1459.000000 milliseconds
+Problem solved in 10342 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 431.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -96.0
+Problem solved in 428.000000 milliseconds
+Problem solved in 86 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 432.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.70051646232605
+Problem solved in 173.000000 milliseconds
+Problem solved in 316 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 70
+moveup tuples built, create and constrain vars:
+len movup tuples: 11197
+Vars created and constrained
+Start solving
+
+Objective value = 455.0
+Problem solved in 1351.000000 milliseconds
+Problem solved in 13199 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 388.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 352.000000 milliseconds
+Problem solved in 63 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 341.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 12.80151093006134
+Problem solved in 58.000000 milliseconds
+Problem solved in 362 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 24
+moveup tuples built, create and constrain vars:
+len movup tuples: 3505
+Vars created and constrained
+Start solving
+
+Objective value = 118.0
+Problem solved in 211.000000 milliseconds
+Problem solved in 909 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 140.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -36.0
+Problem solved in 176.000000 milliseconds
+Problem solved in 25 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 142.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.20239207148552
+Problem solved in 159.000000 milliseconds
+Problem solved in 416 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 95
+moveup tuples built, create and constrain vars:
+len movup tuples: 13559
+Vars created and constrained
+Start solving
+
+Objective value = 505.0
+Problem solved in 1013.000000 milliseconds
+Problem solved in 10017 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 352.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -60.0
+Problem solved in 331.000000 milliseconds
+Problem solved in 53 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 323.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 28.259990260004997
+Problem solved in 220.000000 milliseconds
+Problem solved in 603 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 114
+moveup tuples built, create and constrain vars:
+len movup tuples: 15097
+Vars created and constrained
+Start solving
+
+Objective value = 545.0
+Problem solved in 1563.000000 milliseconds
+Problem solved in 11717 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 473.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -84.0
+Problem solved in 443.000000 milliseconds
+Problem solved in 80 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 419.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.692690670490265
+Problem solved in 115.000000 milliseconds
+Problem solved in 352 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 38
+moveup tuples built, create and constrain vars:
+len movup tuples: 6458
+Vars created and constrained
+Start solving
+
+Objective value = 217.0
+Problem solved in 847.000000 milliseconds
+Problem solved in 8912 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 241.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 243.000000 milliseconds
+Problem solved in 43 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 239.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.401768684387207
+Problem solved in 68.000000 milliseconds
+Problem solved in 276 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 26
+moveup tuples built, create and constrain vars:
+len movup tuples: 3886
+Vars created and constrained
+Start solving
+
+Objective value = 129.0
+Problem solved in 271.000000 milliseconds
+Problem solved in 1907 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 195.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -42.0
+Problem solved in 157.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 159.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.045359790325165
+Problem solved in 190.000000 milliseconds
+Problem solved in 286 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 36
+moveup tuples built, create and constrain vars:
+len movup tuples: 4597
+Vars created and constrained
+Start solving
+
+Objective value = 200.0
+Problem solved in 1092.000000 milliseconds
+Problem solved in 7968 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 376.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 361.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -4.0
+Problem solved in 368.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.702351942658424
+Problem solved in 118.000000 milliseconds
+Problem solved in 398 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 53
+moveup tuples built, create and constrain vars:
+len movup tuples: 7006
+Vars created and constrained
+Start solving
+
+Objective value = 294.0
+Problem solved in 699.000000 milliseconds
+Problem solved in 5559 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 236.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 235.000000 milliseconds
+Problem solved in 39 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 235.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodesAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+
+Start solving
+
+Objective value = 18.2921734303236
+Problem solved in 175.000000 milliseconds
+Problem solved in 391 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 49
+moveup tuples built, create and constrain vars:
+len movup tuples: 9389
+Vars created and constrained
+Start solving
+
+Objective value = 351.0
+Problem solved in 1625.000000 milliseconds
+Problem solved in 15557 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 343.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -68.0
+Problem solved in 318.000000 milliseconds
+Problem solved in 62 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 329.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.932696789503098
+Problem solved in 88.000000 milliseconds
+Problem solved in 268 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 26
+moveup tuples built, create and constrain vars:
+len movup tuples: 2810
+Vars created and constrained
+Start solving
+
+Objective value = 124.0
+Problem solved in 391.000000 milliseconds
+Problem solved in 3349 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 190.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -44.0
+Problem solved in 193.000000 milliseconds
+Problem solved in 37 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 192.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.238228395581245
+Problem solved in 135.000000 milliseconds
+Problem solved in 362 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 38
+moveup tuples built, create and constrain vars:
+len movup tuples: 5188
+Vars created and constrained
+Start solving
+
+Objective value = 224.0
+Problem solved in 649.000000 milliseconds
+Problem solved in 5049 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 286.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -66.0
+Problem solved in 282.000000 milliseconds
+Problem solved in 49 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 287.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 12.354028195142746
+Problem solved in 85.000000 milliseconds
+Problem solved in 279 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 29
+moveup tuples built, create and constrain vars:
+len movup tuples: 4738
+Vars created and constrained
+Start solving
+
+Objective value = 141.0
+Problem solved in 492.000000 milliseconds
+Problem solved in 6549 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 184.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -44.0
+Problem solved in 186.000000 milliseconds
+Problem solved in 38 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 192.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.61012351512909
+Problem solved in 134.000000 milliseconds
+Problem solved in 297 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 58
+moveup tuples built, create and constrain vars:
+len movup tuples: 9543
+Vars created and constrained
+Start solving
+
+Objective value = 346.0
+Problem solved in 684.000000 milliseconds
+Problem solved in 3919 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 323.000000 milliseconds
+Problem solved in 9 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -76.0
+Problem solved in 323.000000 milliseconds
+Problem solved in 41 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -8.0
+Problem solved in 354.000000 milliseconds
+Problem solved in 11 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.05981443822384
+Problem solved in 163.000000 milliseconds
+Problem solved in 381 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 78
+moveup tuples built, create and constrain vars:
+len movup tuples: 12661
+Vars created and constrained
+Start solving
+
+Objective value = 487.0
+Problem solved in 1290.000000 milliseconds
+Problem solved in 12785 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 343.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 346.000000 milliseconds
+Problem solved in 70 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 345.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.51311695575714
+Problem solved in 106.000000 milliseconds
+Problem solved in 306 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 37
+moveup tuples built, create and constrain vars:
+len movup tuples: 6124
+Vars created and constrained
+Start solving
+
+Objective value = 233.0
+Problem solved in 556.000000 milliseconds
+Problem solved in 6310 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 237.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -52.0
+Problem solved in 234.000000 milliseconds
+Problem solved in 44 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 231.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.754389822483063
+Problem solved in 116.000000 milliseconds
+Problem solved in 287 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 43
+moveup tuples built, create and constrain vars:
+len movup tuples: 7037
+Vars created and constrained
+Start solving
+
+Objective value = 251.0
+Problem solved in 772.000000 milliseconds
+Problem solved in 7567 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 251.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 247.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 257.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 11.149389743804932
+Problem solved in 44.000000 milliseconds
+Problem solved in 99 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 24
+moveup tuples built, create and constrain vars:
+len movup tuples: 3148
+Vars created and constrained
+Start solving
+
+Objective value = 116.0
+Problem solved in 189.000000 milliseconds
+Problem solved in 95 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 129.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -36.0
+Problem solved in 130.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 128.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.827173680067062
+Problem solved in 147.000000 milliseconds
+Problem solved in 404 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuplesAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+total swaps! 50
+moveup tuples built, create and constrain vars:
+len movup tuples: 7877
+Vars created and constrained
+Start solving
+
+Objective value = 280.0
+Problem solved in 1186.000000 milliseconds
+Problem solved in 12219 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 296.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -62.0
+Problem solved in 305.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 293.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.956299662590027
+Problem solved in 122.000000 milliseconds
+Problem solved in 316 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 37
+moveup tuples built, create and constrain vars:
+len movup tuples: 6521
+Vars created and constrained
+Start solving
+
+Objective value = 263.0
+Problem solved in 810.000000 milliseconds
+Problem solved in 8409 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 250.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 236.000000 milliseconds
+Problem solved in 57 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 236.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.42656670510769
+Problem solved in 127.000000 milliseconds
+Problem solved in 236 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 49
+moveup tuples built, create and constrain vars:
+len movup tuples: 7124
+Vars created and constrained
+Start solving
+
+Objective value = 259.0
+Problem solved in 739.000000 milliseconds
+Problem solved in 5694 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 248.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -60.0
+Problem solved in 250.000000 milliseconds
+Problem solved in 39 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 251.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.012900084257126
+Problem solved in 159.000000 milliseconds
+Problem solved in 344 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 76
+moveup tuples built, create and constrain vars:
+len movup tuples: 9093
+Vars created and constrained
+Start solving
+
+Objective value = 342.0
+Problem solved in 813.000000 milliseconds
+Problem solved in 5532 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 347.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -72.0
+Problem solved in 328.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 382.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.984475627541542
+Problem solved in 113.000000 milliseconds
+Problem solved in 219 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 75
+moveup tuples built, create and constrain vars:
+len movup tuples: 10952
+Vars created and constrained
+Start solving
+
+Objective value = 389.0
+Problem solved in 576.000000 milliseconds
+Problem solved in 2161 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 282.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 247.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 246.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.318323105573654
+Problem solved in 113.000000 milliseconds
+Problem solved in 403 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 48
+moveup tuples built, create and constrain vars:
+len movup tuples: 7821
+Vars created and constrained
+Start solving
+
+Objective value = 279.0
+Problem solved in 611.000000 milliseconds
+Problem solved in 5565 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 244.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 239.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 243.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.36523076891899
+Problem solved in 103.000000 milliseconds
+Problem solved in 326 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 33
+moveup tuples built, create and constrain vars:
+len movup tuples: 5112
+Vars created and constrained
+Start solving
+
+Objective value = 167.0
+Problem solved in 584.000000 milliseconds
+Problem solved in 7389 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 220.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 234.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 222.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.334204718470573
+Problem solved in 155.000000 milliseconds
+Problem solved in 309 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 53
+moveup tuples built, create and constrain vars:
+len movup tuples: 7972
+Vars created and constrained
+Start solving
+
+Objective value = 287.0
+Problem solved in 1127.000000 milliseconds
+Problem solved in 11235 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 294.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 285.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 290.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.424444496631622
+Problem solved in 144.000000 milliseconds
+Problem solved in 400 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 61
+moveup tuples built, create and constrain vars:
+len movup tuples: 10769
+Vars created and constrained
+Start solving
+
+Objective value = 354.0
+Problem solved in 1507.000000 milliseconds
+Problem solved in 18310 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 308.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 339.000000 milliseconds
+Problem solved in 70 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 319.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.536001414060593
+Problem solved in 91.000000 milliseconds
+Problem solved in 307 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 43
+moveup tuples built, create and constrain vars:
+len movup tuples: 6603
+Vars created and constrained
+Start solving
+
+Objective value = 197.0
+Problem solved in 363.000000 millisecondsAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+Problem solved in 1699 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 253.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -48.0
+Problem solved in 212.000000 milliseconds
+Problem solved in 31 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 214.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 25.808297768235207
+Problem solved in 314.000000 milliseconds
+Problem solved in 293 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 156
+moveup tuples built, create and constrain vars:
+len movup tuples: 23368
+Vars created and constrained
+Start solving
+
+Objective value = 858.0
+Problem solved in 4790.000000 milliseconds
+Problem solved in 24205 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 569.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 492.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -2.0
+Problem solved in 622.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.306916669011116
+Problem solved in 175.000000 milliseconds
+Problem solved in 323 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 88
+moveup tuples built, create and constrain vars:
+len movup tuples: 13662
+Vars created and constrained
+Start solving
+
+Objective value = 467.0
+Problem solved in 1742.000000 milliseconds
+Problem solved in 16724 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 358.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -72.0
+Problem solved in 355.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 343.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.83561423420906
+Problem solved in 157.000000 milliseconds
+Problem solved in 352 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 61
+moveup tuples built, create and constrain vars:
+len movup tuples: 9148
+Vars created and constrained
+Start solving
+
+Objective value = 394.0
+Problem solved in 1255.000000 milliseconds
+Problem solved in 13101 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 339.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -66.0
+Problem solved in 311.000000 milliseconds
+Problem solved in 58 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 371.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.405429422855377
+Problem solved in 155.000000 milliseconds
+Problem solved in 283 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 85
+moveup tuples built, create and constrain vars:
+len movup tuples: 9853
+Vars created and constrained
+Start solving
+
+Objective value = 491.0
+Problem solved in 853.000000 milliseconds
+Problem solved in 6665 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 353.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 289.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -0.0
+Problem solved in 311.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.640713155269623
+Problem solved in 171.000000 milliseconds
+Problem solved in 446 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 64
+moveup tuples built, create and constrain vars:
+len movup tuples: 11889
+Vars created and constrained
+Start solving
+
+Objective value = 431.0
+Problem solved in 1417.000000 milliseconds
+Problem solved in 12661 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 383.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -78.0
+Problem solved in 383.000000 milliseconds
+Problem solved in 77 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 357.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.4993187636137
+Problem solved in 149.000000 milliseconds
+Problem solved in 352 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 78
+moveup tuples built, create and constrain vars:
+len movup tuples: 9308
+Vars created and constrained
+Start solving
+
+Objective value = 357.0
+Problem solved in 1225.000000 milliseconds
+Problem solved in 10149 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 314.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -76.0
+Problem solved in 312.000000 milliseconds
+Problem solved in 60 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 355.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.592377424240112
+Problem solved in 188.000000 milliseconds
+Problem solved in 338 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 108
+moveup tuples built, create and constrain vars:
+len movup tuples: 16051
+Vars created and constrained
+Start solving
+
+Objective value = 678.0
+Problem solved in 1334.000000 milliseconds
+Problem solved in 9730 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 409.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -86.0
+Problem solved in 392.000000 milliseconds
+Problem solved in 89 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 443.000000 milliseconds
+Problem solved in 7 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.665104433894157
+Problem solved in 160.000000 milliseconds
+Problem solved in 389 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 68
+moveup tuples built, create and constrain vars:
+len movup tuples: 9825
+Vars created and constrained
+Start solving
+
+Objective value = 334.0
+Problem solved in 1124.000000 milliseconds
+Problem solved in 8642 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 361.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -68.0
+Problem solved in 328.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 327.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.701279774308205
+Problem solved in 145.000000 milliseconds
+Problem solved in 349 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 83
+moveup tuples built, create and constrain vars:
+len movup tuples: 13098
+Vars created and constrained
+Start solving
+
+Objective value = 407.0
+Problem solved in 1099.000000 milliseconds
+Problem solved in 11734 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 293.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -60.0Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+Problem solved in 305.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 342.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.47125570476055
+Problem solved in 136.000000 milliseconds
+Problem solved in 313 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 48
+moveup tuples built, create and constrain vars:
+len movup tuples: 7888
+Vars created and constrained
+Start solving
+
+Objective value = 348.0
+Problem solved in 820.000000 milliseconds
+Problem solved in 8426 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 324.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -62.0
+Problem solved in 282.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 286.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.920282401144505
+Problem solved in 206.000000 milliseconds
+Problem solved in 263 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 73
+moveup tuples built, create and constrain vars:
+len movup tuples: 11605
+Vars created and constrained
+Start solving
+
+Objective value = 498.0
+Problem solved in 1622.000000 milliseconds
+Problem solved in 13932 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 380.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -82.0
+Problem solved in 405.000000 milliseconds
+Problem solved in 61 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 382.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 14.53830772638321
+Problem solved in 89.000000 milliseconds
+Problem solved in 189 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 32
+moveup tuples built, create and constrain vars:
+len movup tuples: 5492
+Vars created and constrained
+Start solving
+
+Objective value = 193.0
+Problem solved in 438.000000 milliseconds
+Problem solved in 5173 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 202.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 209.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 215.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 31.34126715362072
+Problem solved in 308.000000 milliseconds
+Problem solved in 334 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 148
+moveup tuples built, create and constrain vars:
+len movup tuples: 19431
+Vars created and constrained
+Start solving
+
+Objective value = 774.0
+Problem solved in 3652.000000 milliseconds
+Problem solved in 19073 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 566.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -92.0
+Problem solved in 539.000000 milliseconds
+Problem solved in 88 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 599.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 32.11687049269676
+Problem solved in 292.000000 milliseconds
+Problem solved in 372 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 109
+moveup tuples built, create and constrain vars:
+len movup tuples: 13827
+Vars created and constrained
+Start solving
+
+Objective value = 499.0
+Problem solved in 2743.000000 milliseconds
+Problem solved in 12045 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 519.000000 milliseconds
+Problem solved in 4 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 483.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -2.0
+Problem solved in 572.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.887603610754013
+Problem solved in 178.000000 milliseconds
+Problem solved in 213 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 79
+moveup tuples built, create and constrain vars:
+len movup tuples: 11930
+Vars created and constrained
+Start solving
+
+Objective value = 512.0
+Problem solved in 842.000000 milliseconds
+Problem solved in 4540 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 407.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -80.0
+Problem solved in 359.000000 milliseconds
+Problem solved in 62 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 366.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.927284702658653
+Problem solved in 168.000000 milliseconds
+Problem solved in 402 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 75
+moveup tuples built, create and constrain vars:
+len movup tuples: 10459
+Vars created and constrained
+Start solving
+
+Objective value = 418.0
+Problem solved in 1399.000000 milliseconds
+Problem solved in 11962 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 348.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -70.0
+Problem solved in 386.000000 milliseconds
+Problem solved in 65 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 351.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 22.661423578858376
+Problem solved in 152.000000 milliseconds
+Problem solved in 412 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 75
+moveup tuples built, create and constrain vars:
+len movup tuples: 8520
+Vars created and constrained
+Start solving
+
+Objective value = 308.0
+Problem solved in 770.000000 milliseconds
+Problem solved in 4493 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 330.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 287.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -2.0
+Problem solved in 325.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 25.335994452238083
+Problem solved in 216.000000 milliseconds
+Problem solved in 562 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 106
+moveup tuples built, create and constrain vars:
+len movup tuples: 14428
+Vars created and constrained
+Start solving
+
+Objective value = 521.0
+Problem solved in 1340.000000 milliseconds
+Problem solved in 12637 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 413.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -80.0
+Problem solved in 373.000000 milliseconds
+Problem solved in 64 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 377.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodesAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+
+Start solving
+
+Objective value = 18.92204314470291
+Problem solved in 135.000000 milliseconds
+Problem solved in 349 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 49
+moveup tuples built, create and constrain vars:
+len movup tuples: 7101
+Vars created and constrained
+Start solving
+
+Objective value = 217.0
+Problem solved in 960.000000 milliseconds
+Problem solved in 8530 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 290.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 290.000000 milliseconds
+Problem solved in 53 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 279.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.040682449936867
+Problem solved in 208.000000 milliseconds
+Problem solved in 388 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 84
+moveup tuples built, create and constrain vars:
+len movup tuples: 11549
+Vars created and constrained
+Start solving
+
+Objective value = 438.0
+Problem solved in 1990.000000 milliseconds
+Problem solved in 16056 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 405.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -82.0
+Problem solved in 430.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 401.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.42031241953373
+Problem solved in 138.000000 milliseconds
+Problem solved in 381 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 48
+moveup tuples built, create and constrain vars:
+len movup tuples: 8377
+Vars created and constrained
+Start solving
+
+Objective value = 326.0
+Problem solved in 865.000000 milliseconds
+Problem solved in 8843 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 266.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 278.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 274.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.88672561943531
+Problem solved in 230.000000 milliseconds
+Problem solved in 463 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 91
+moveup tuples built, create and constrain vars:
+len movup tuples: 14050
+Vars created and constrained
+Start solving
+
+Objective value = 514.0
+Problem solved in 1917.000000 milliseconds
+Problem solved in 14455 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 424.000000 milliseconds
+Problem solved in 8 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 375.000000 milliseconds
+Problem solved in 67 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 379.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.10357838869095
+Problem solved in 172.000000 milliseconds
+Problem solved in 596 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 91
+moveup tuples built, create and constrain vars:
+len movup tuples: 15747
+Vars created and constrained
+Start solving
+
+Objective value = 539.0
+Problem solved in 1784.000000 milliseconds
+Problem solved in 18880 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 382.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -80.0
+Problem solved in 349.000000 milliseconds
+Problem solved in 78 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 346.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.661849707365036
+Problem solved in 125.000000 milliseconds
+Problem solved in 314 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 53
+moveup tuples built, create and constrain vars:
+len movup tuples: 9189
+Vars created and constrained
+Start solving
+
+Objective value = 337.0
+Problem solved in 1051.000000 milliseconds
+Problem solved in 12249 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 270.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 272.000000 milliseconds
+Problem solved in 44 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 272.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.174353018403053
+Problem solved in 133.000000 milliseconds
+Problem solved in 433 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 56
+moveup tuples built, create and constrain vars:
+len movup tuples: 8140
+Vars created and constrained
+Start solving
+
+Objective value = 314.0
+Problem solved in 928.000000 milliseconds
+Problem solved in 9508 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 271.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 281.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 269.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.158378839492798
+Problem solved in 155.000000 milliseconds
+Problem solved in 345 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 56
+moveup tuples built, create and constrain vars:
+len movup tuples: 8252
+Vars created and constrained
+Start solving
+
+Objective value = 283.0
+Problem solved in 1220.000000 milliseconds
+Problem solved in 10517 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 304.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 346.000000 milliseconds
+Problem solved in 48 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 301.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.54561495780945
+Problem solved in 120.000000 milliseconds
+Problem solved in 268 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 60
+moveup tuples built, create and constrain vars:
+len movup tuples: 8995
+Vars created and constrained
+Start solving
+
+Objective value = 323.0
+Problem solved in 628.000000 milliseconds
+Problem solved in 5056 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 289.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -66.0
+Problem solved in 305.000000 milliseconds
+Problem solved in 43 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 293.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.824667006731033
+Problem solved in 106.000000 milliseconds
+Problem solved in 231 iterations
+Problem solved in 0 branch-and-bound nodesAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+
+Build moveup tuples
+total swaps! 53
+moveup tuples built, create and constrain vars:
+len movup tuples: 8432
+Vars created and constrained
+Start solving
+
+Objective value = 275.0
+Problem solved in 542.000000 milliseconds
+Problem solved in 3740 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 272.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 267.000000 milliseconds
+Problem solved in 34 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 302.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.502025812864304
+Problem solved in 151.000000 milliseconds
+Problem solved in 227 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 37
+moveup tuples built, create and constrain vars:
+len movup tuples: 5020
+Vars created and constrained
+Start solving
+
+Objective value = 179.0
+Problem solved in 887.000000 milliseconds
+Problem solved in 6664 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 333.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -60.0
+Problem solved in 327.000000 milliseconds
+Problem solved in 58 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 378.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.28263943642378
+Problem solved in 180.000000 milliseconds
+Problem solved in 307 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 65
+moveup tuples built, create and constrain vars:
+len movup tuples: 10074
+Vars created and constrained
+Start solving
+
+Objective value = 355.0
+Problem solved in 1522.000000 milliseconds
+Problem solved in 12655 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 425.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -78.0
+Problem solved in 415.000000 milliseconds
+Problem solved in 58 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 391.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.100400045514107
+Problem solved in 255.000000 milliseconds
+Problem solved in 650 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 153
+moveup tuples built, create and constrain vars:
+len movup tuples: 22767
+Vars created and constrained
+Start solving
+
+Objective value = 875.0
+Problem solved in 2101.000000 milliseconds
+Problem solved in 14253 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 605.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -94.0
+Problem solved in 598.000000 milliseconds
+Problem solved in 84 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 618.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.372624769806862
+Problem solved in 168.000000 milliseconds
+Problem solved in 341 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 46
+moveup tuples built, create and constrain vars:
+len movup tuples: 7654
+Vars created and constrained
+Start solving
+
+Objective value = 306.0
+Problem solved in 848.000000 milliseconds
+Problem solved in 6849 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 345.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 370.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 348.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.120911359786987
+Problem solved in 105.000000 milliseconds
+Problem solved in 132 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 24
+moveup tuples built, create and constrain vars:
+len movup tuples: 4409
+Vars created and constrained
+Start solving
+
+Objective value = 161.0
+Problem solved in 408.000000 milliseconds
+Problem solved in 2490 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 274.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 244.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 242.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.668525606393814
+Problem solved in 228.000000 milliseconds
+Problem solved in 269 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 94
+moveup tuples built, create and constrain vars:
+len movup tuples: 13872
+Vars created and constrained
+Start solving
+
+Objective value = 526.0
+Problem solved in 1884.000000 milliseconds
+Problem solved in 14801 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 462.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -86.0
+Problem solved in 463.000000 milliseconds
+Problem solved in 49 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 503.000000 milliseconds
+Problem solved in 13 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.124897688627243
+Problem solved in 114.000000 milliseconds
+Problem solved in 461 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 39
+moveup tuples built, create and constrain vars:
+len movup tuples: 5996
+Vars created and constrained
+Start solving
+
+Objective value = 196.0
+Problem solved in 770.000000 milliseconds
+Problem solved in 8613 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 254.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -40.0
+Problem solved in 284.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 251.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.788321644067764
+Problem solved in 145.000000 milliseconds
+Problem solved in 261 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 38
+moveup tuples built, create and constrain vars:
+len movup tuples: 4337
+Vars created and constrained
+Start solving
+
+Objective value = 150.0
+Problem solved in 673.000000 milliseconds
+Problem solved in 6436 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 317.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -62.0
+Problem solved in 342.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 318.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.69831909239292
+Problem solved in 154.000000 milliseconds
+Problem solved in 495 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 67
+moveup tuples built, create and constrain vars:
+len movup tuples: 10279
+Vars created and constrained
+Start solving
+
+Objective value =Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+ 348.0
+Problem solved in 1016.000000 milliseconds
+Problem solved in 10465 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 331.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 332.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 329.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.552746146917343
+Problem solved in 103.000000 milliseconds
+Problem solved in 361 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 37
+moveup tuples built, create and constrain vars:
+len movup tuples: 5929
+Vars created and constrained
+Start solving
+
+Objective value = 253.0
+Problem solved in 551.000000 milliseconds
+Problem solved in 4210 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 242.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 242.000000 milliseconds
+Problem solved in 33 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 240.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.025487631559372
+Problem solved in 273.000000 milliseconds
+Problem solved in 413 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 80
+moveup tuples built, create and constrain vars:
+len movup tuples: 14498
+Vars created and constrained
+Start solving
+
+Objective value = 580.0
+Problem solved in 2291.000000 milliseconds
+Problem solved in 13163 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 538.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -84.0
+Problem solved in 486.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 503.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.519342221319675
+Problem solved in 224.000000 milliseconds
+Problem solved in 455 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 95
+moveup tuples built, create and constrain vars:
+len movup tuples: 14111
+Vars created and constrained
+Start solving
+
+Objective value = 491.0
+Problem solved in 1756.000000 milliseconds
+Problem solved in 17811 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 410.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -72.0
+Problem solved in 408.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 443.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.771654337644577
+Problem solved in 185.000000 milliseconds
+Problem solved in 275 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 52
+moveup tuples built, create and constrain vars:
+len movup tuples: 7871
+Vars created and constrained
+Start solving
+
+Objective value = 290.0
+Problem solved in 1328.000000 milliseconds
+Problem solved in 11414 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 359.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 322.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 325.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 12.30476288497448
+Problem solved in 62.000000 milliseconds
+Problem solved in 137 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 26
+moveup tuples built, create and constrain vars:
+len movup tuples: 3060
+Vars created and constrained
+Start solving
+
+Objective value = 117.0
+Problem solved in 183.000000 milliseconds
+Problem solved in 38 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 201.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -46.0
+Problem solved in 167.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 166.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 25.47654190659523
+Problem solved in 210.000000 milliseconds
+Problem solved in 265 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 99
+moveup tuples built, create and constrain vars:
+len movup tuples: 16300
+Vars created and constrained
+Start solving
+
+Objective value = 581.0
+Problem solved in 1955.000000 milliseconds
+Problem solved in 11975 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 433.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -78.0
+Problem solved in 421.000000 milliseconds
+Problem solved in 66 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 454.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.497267067432404
+Problem solved in 197.000000 milliseconds
+Problem solved in 423 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 84
+moveup tuples built, create and constrain vars:
+len movup tuples: 11537
+Vars created and constrained
+Start solving
+
+Objective value = 403.0
+Problem solved in 1267.000000 milliseconds
+Problem solved in 10829 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 393.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -76.0
+Problem solved in 404.000000 milliseconds
+Problem solved in 68 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 395.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.573913618922234
+Problem solved in 115.000000 milliseconds
+Problem solved in 299 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 81
+moveup tuples built, create and constrain vars:
+len movup tuples: 11933
+Vars created and constrained
+Start solving
+
+Objective value = 384.0
+Problem solved in 853.000000 milliseconds
+Problem solved in 4937 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 287.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 324.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 290.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.64375241100788
+Problem solved in 172.000000 milliseconds
+Problem solved in 465 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 47
+moveup tuples built, create and constrain vars:
+len movup tuples: 7226
+Vars created and constrained
+Start solving
+
+Objective value = 290.0
+Problem solved in 1099.000000 milliseconds
+Problem solved in 9092 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 388.000000 millisecondsAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -58.0
+Problem solved in 339.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 340.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 13.045074924826622
+Problem solved in 91.000000 milliseconds
+Problem solved in 174 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 35
+moveup tuples built, create and constrain vars:
+len movup tuples: 5665
+Vars created and constrained
+Start solving
+
+Objective value = 190.0
+Problem solved in 574.000000 milliseconds
+Problem solved in 8428 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 260.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -46.0
+Problem solved in 220.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 213.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.910336941480637
+Problem solved in 138.000000 milliseconds
+Problem solved in 228 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 59
+moveup tuples built, create and constrain vars:
+len movup tuples: 8375
+Vars created and constrained
+Start solving
+
+Objective value = 316.0
+Problem solved in 1091.000000 milliseconds
+Problem solved in 8930 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 272.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -56.0
+Problem solved in 273.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 284.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 11.468420892953873
+Problem solved in 92.000000 milliseconds
+Problem solved in 103 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 41
+moveup tuples built, create and constrain vars:
+len movup tuples: 6446
+Vars created and constrained
+Start solving
+
+Objective value = 209.0
+Problem solved in 593.000000 milliseconds
+Problem solved in 6693 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 215.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -40.0
+Problem solved in 212.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 205.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 10.975779816508293
+Problem solved in 63.000000 milliseconds
+Problem solved in 107 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 35
+moveup tuples built, create and constrain vars:
+len movup tuples: 4380
+Vars created and constrained
+Start solving
+
+Objective value = 134.0
+Problem solved in 217.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 147.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -30.0
+Problem solved in 182.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 145.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.585199490189552
+Problem solved in 120.000000 milliseconds
+Problem solved in 524 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 52
+moveup tuples built, create and constrain vars:
+len movup tuples: 6821
+Vars created and constrained
+Start solving
+
+Objective value = 239.0
+Problem solved in 624.000000 milliseconds
+Problem solved in 2756 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 269.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 310.000000 milliseconds
+Problem solved in 43 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 266.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.874111086130142
+Problem solved in 122.000000 milliseconds
+Problem solved in 220 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 41
+moveup tuples built, create and constrain vars:
+len movup tuples: 3488
+Vars created and constrained
+Start solving
+
+Objective value = 175.0
+Problem solved in 416.000000 milliseconds
+Problem solved in 1485 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 269.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+NO OPTIMAL SOLUTION: INFEASIBLE
+Time: 244.000000 milliseconds
+0 iterations
+0 branch-and-bound nodes
+
+Objective value = -0.0
+Problem solved in 300.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 24.52436091005802
+Problem solved in 231.000000 milliseconds
+Problem solved in 316 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 55
+moveup tuples built, create and constrain vars:
+len movup tuples: 8434
+Vars created and constrained
+Start solving
+
+Objective value = 324.0
+Problem solved in 1300.000000 milliseconds
+Problem solved in 9181 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 453.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -80.0
+Problem solved in 416.000000 milliseconds
+Problem solved in 78 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 423.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.973733618855476
+Problem solved in 113.000000 milliseconds
+Problem solved in 263 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 27
+moveup tuples built, create and constrain vars:
+len movup tuples: 3804
+Vars created and constrained
+Start solving
+
+Objective value = 169.0
+Problem solved in 531.000000 milliseconds
+Problem solved in 5397 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 243.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 247.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 241.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.172184869647026
+Problem solved in 97.000000 milliseconds
+Problem solved in 239 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 30
+moveup tuples built, create and constrain vars:
+len movup tuples: 4509
+Vars created and constrained
+Start solving
+
+Objective value = 150.0
+Problem solved in 507.000000 milliseconds
+Problem solved in 4985 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 238.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 225.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value =Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+ -0.0
+Problem solved in 225.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.427855044603348
+Problem solved in 171.000000 milliseconds
+Problem solved in 311 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 87
+moveup tuples built, create and constrain vars:
+len movup tuples: 13099
+Vars created and constrained
+Start solving
+
+Objective value = 485.0
+Problem solved in 1377.000000 milliseconds
+Problem solved in 11673 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 350.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -66.0
+Problem solved in 352.000000 milliseconds
+Problem solved in 47 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 354.000000 milliseconds
+Problem solved in 8 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.41330909729004
+Problem solved in 238.000000 milliseconds
+Problem solved in 360 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 102
+moveup tuples built, create and constrain vars:
+len movup tuples: 14150
+Vars created and constrained
+Start solving
+
+Objective value = 563.0
+Problem solved in 2380.000000 milliseconds
+Problem solved in 18442 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 425.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -78.0
+Problem solved in 423.000000 milliseconds
+Problem solved in 72 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 435.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.45648553967476
+Problem solved in 322.000000 milliseconds
+Problem solved in 476 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Build moveup tuples
+total swaps! 173
+moveup tuples built, create and constrain vars:
+len movup tuples: 25744
+Vars created and constrained
+Start solving
+
+Objective value = 914.0
+Problem solved in 3872.000000 milliseconds
+Problem solved in 20988 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 545.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -100.0
+Problem solved in 558.000000 milliseconds
+Problem solved in 100 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 545.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+test_disrupt.py -l moveup -i 100 -p model_wts/s0_d2_m1.0_b0.0.ckpt -d flights_delay -n 25 3 -r 2
+LP disruptions                       [    0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     3,     0,     0,     1,     0,     0,     1,     0,     0,     2,     0,     1,     0,     0,     0,     2,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     1,     0,     2,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     2,     1,     1,     1,     0,     1,     1,     0,     1,     2,     0,     1,     1,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     2,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     1]
+LP moveups                           [    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0]
+LP callups                           [    0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     3,     0,     0,     1,     0,     0,     1,     0,     0,     2,     0,     1,     0,     0,     0,     2,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     1,     0,     2,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     2,     1,     1,     1,     0,     1,     1,     0,     1,     1,     0,     1,     1,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     2,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     1]
+LP time                              [  1.9,   2.8,   1.5,   1.6,   1.3,   2.1,   0.9,   1.0,   1.1,   0.6,   0.6,   0.8,   1.0,   1.0,   1.5,   1.4,   0.2,   1.0,   1.6,   0.9,   0.3,   1.1,   0.7,   1.7,   0.4,   0.7,   0.5,   0.7,   1.3,   0.6,   0.8,   0.2,   1.2,   0.8,   0.8,   0.8,   0.6,   0.6,   0.6,   1.2,   1.5,   0.4,   4.9,   1.8,   1.3,   0.9,   1.5,   1.3,   1.4,   1.2,   1.1,   0.8,   1.7,   0.5,   3.7,   2.8,   0.9,   1.4,   0.8,   1.4,   1.0,   2.0,   0.9,   2.0,   1.8,   1.1,   1.0,   1.3,   0.6,   0.6,   0.9,   1.6,   2.2,   0.9,   0.4,   1.9,   0.8,   0.7,   1.0,   0.6,   2.3,   1.8,   1.4,   0.2,   2.0,   1.3,   0.9,   1.1,   0.6,   1.1,   0.6,   0.2,   0.6,   0.4,   1.3,   0.5,   0.5,   1.4,   2.4,   4.0]
+LP constraints                       [53184, 86585, 46205, 45735, 43759, 63186, 26681, 34526, 36340, 20558, 18364, 23429, 32259, 33218, 51274, 45710,  8661, 35863, 50845, 27063, 10035, 36665, 23590, 39235, 16145, 24693, 15805, 23060, 36201, 17269, 24695,  6213, 31869, 23932, 27748, 29021, 22190, 20768, 20012, 34537, 40265, 14570, 139944, 54920, 39133, 33801, 45718, 37275, 46268, 42883, 37768, 26937, 56092, 14292, 117671, 96578, 31737, 46379, 27956, 45196, 34122, 56001, 27372, 65993, 49314, 30384, 32793, 42325, 20182, 17894, 29112, 36581, 55803, 22753, 13147, 47694, 18882, 20906, 28687, 15841, 63095, 47927, 41095,  6737, 52714, 39669, 27293, 34867, 14476, 27487, 16220,  8488, 23629, 16165, 40107, 15837, 14664, 39606, 61063, 106765]
+LP variables                         [24413, 26147, 18027, 16309, 12385, 24903, 15587, 15652, 19462, 10895,  8206, 12926, 21971, 14828, 24870, 16243,  6028, 17996, 21013, 10286,  6757,  9208, 10834, 13739,  5768,  9451,  7783, 14328, 17707,  9952, 10865,  5671, 12227, 10262, 10952, 14052, 15128, 11823,  8592, 12409, 15293, 10170, 30241, 18795, 13759, 14725, 17196, 14267, 21880, 14697, 17796, 12151, 16825,  8972, 26130, 20265, 17237, 15505, 13653, 19909, 11103, 17291, 12553, 19357, 21054, 13452, 12229, 12602, 13606, 12434,  9022, 15120, 29466, 12178,  7715, 19527,  9389,  8426, 14803,  9496, 19979, 19331, 12221,  5931, 21868, 16931, 16544, 11489,  8797, 12377,  9578,  6816, 10736,  7403, 13567,  7458,  7902, 18058, 19805, 32704]
+
+RL_H disruptions                     [   46,    51,    32,    38,    34,    42,    35,    39,    37,    28,    27,    30,    33,    32,    48,    37,    18,    30,    42,    28,    21,  None,    29,    34,    22,    33,    22,    38,    37,    26,    27,    18,    31,    28,    30,    36,    28,    28,    25,    32,    32,    24,  None,    36,    33,  None,    39,    38,    43,    34,    30,    31,    41,    28,    46,  None,    40,    35,  None,    40,    28,    41,    32,    37,    40,    29,    29,    27,    33,    29,    30,    39,    47,    37,    25,    43,    20,    31,    29,    27,    42,    36,    32,    23,    39,    38,    32,    29,    23,    28,    20,    15,    25,  None,    40,    25,    25,    33,    39,    50]
+RL_H moveups                         [    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,  None,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,  None,     0,     0,  None,     0,     0,     0,     0,     0,     0,     0,     0,     0,  None,     0,     0,  None,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,  None,     0,     0,     0,     0,     0,     0]
+RL_H callups                         [   46,    51,    32,    38,    34,    42,    35,    39,    37,    28,    27,    30,    33,    32,    48,    37,    18,    30,    42,    28,    21,  None,    29,    34,    22,    33,    22,    38,    37,    26,    27,    18,    31,    28,    30,    36,    28,    28,    25,    32,    32,    24,  None,    36,    33,  None,    39,    38,    43,    34,    30,    31,    41,    28,    46,  None,    40,    35,  None,    40,    28,    41,    32,    37,    40,    29,    29,    27,    33,    29,    30,    39,    47,    37,    25,    43,    20,    31,    29,    27,    42,    36,    32,    23,    39,    38,    32,    29,    23,    28,    20,    15,    25,  None,    40,    25,    25,    33,    39,    50]
+RL_H time                            [  0.4,   0.4,   0.3,   0.3,   0.3,   0.4,   0.3,   0.3,   0.3,   0.2,   0.2,   0.3,   0.3,   0.3,   0.4,   0.3,   0.1,   0.3,   0.4,   0.2,   0.2,   0.3,   0.2,   0.3,   0.2,   0.2,   0.2,   0.3,   0.3,   0.2,   0.2,   0.1,   0.2,   0.2,   0.2,   0.3,   0.3,   0.2,   0.2,   0.3,   0.3,   0.2,   0.5,   0.3,   0.3,   0.3,   0.3,   0.3,   0.4,   0.3,   0.3,   0.3,   0.3,   0.2,   0.5,   0.4,   0.3,   0.3,   0.3,   0.4,   0.2,   0.4,   0.3,   0.3,   0.4,   0.3,   0.2,   0.3,   0.3,   0.3,   0.3,   0.4,   0.6,   0.3,   0.2,   0.5,   0.2,   0.3,   0.3,   0.2,   0.4,   0.4,   0.3,   0.2,   0.4,   0.4,   0.3,   0.3,   0.2,   0.3,   0.2,   0.1,   0.3,   0.3,   0.3,   0.2,   0.2,   0.4,   0.4,   0.6]
+RL_H constraints                     [ None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None]
+RL_H variables                       [ None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None]
+
+CARLO disruptions                    [    0,     0,     0,     1,     0,     3,     0,     0,     1,     1,     2,     0,     0,     1,     3,     0,     0,     1,     0,     0,     0,     2,     0,     0,     0,     0,     0,     4,     1,     0,     1,     1,     0,     0,     0,     0,     1,     0,     0,     0,     2,     0,     1,     0,     0,     0,     1,     0,     2,     0,     0,     0,     0,     0,     0,     1,     3,     1,     1,     1,     2,     0,     0,     1,     2,     0,     2,     1,     2,     2,     1,     0,     0,     0,     0,     3,     0,     0,     0,     0,     1,     1,     0,     0,     0,     1,     0,     0,     0,     1,     0,     0,     0,     0,     2,     0,     0,     3,     2,     0]
+CARLO moveups                        [    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0]
+CARLO callups                        [    0,     0,     0,     1,     0,     3,     0,     0,     1,     1,     2,     0,     0,     1,     3,     0,     0,     1,     0,     0,     0,     2,     0,     0,     0,     0,     0,     4,     1,     0,     1,     1,     0,     0,     0,     0,     1,     0,     0,     0,     2,     0,     1,     0,     0,     0,     1,     0,     2,     0,     0,     0,     0,     0,     0,     1,     3,     1,     1,     1,     2,     0,     0,     1,     2,     0,     2,     1,     2,     2,     1,     0,     0,     0,     0,     3,     0,     0,     0,     0,     1,     1,     0,     0,     0,     1,     0,     0,     0,     1,     0,     0,     0,     0,     2,     0,     0,     3,     2,     0]
+CARLO time                           [  1.2,   1.4,   0.9,   0.9,   0.9,   1.1,   0.9,   0.9,   1.0,   0.7,   0.5,   0.7,   0.9,   0.8,   1.2,   0.9,   0.4,   0.8,   1.1,   0.6,   0.5,   0.8,   0.7,   0.8,   0.5,   0.7,   0.5,   0.8,   0.9,   0.6,   0.7,   0.4,   0.7,   0.7,   0.7,   0.9,   0.7,   0.7,   0.6,   0.8,   0.8,   0.6,   1.5,   0.9,   0.8,   0.9,   0.9,   0.9,   1.1,   0.8,   0.8,   0.7,   1.0,   0.6,   1.4,   1.2,   1.0,   0.9,   0.9,   1.0,   0.7,   1.0,   0.7,   1.0,   1.0,   0.7,   0.7,   0.8,   0.8,   0.7,   0.7,   1.1,   1.6,   1.0,   0.6,   1.3,   0.7,   0.8,   0.9,   0.7,   1.2,   1.1,   0.9,   0.5,   1.1,   1.1,   0.8,   0.8,   0.6,   0.8,   0.6,   0.4,   0.7,   0.7,   1.0,   0.7,   0.6,   1.0,   1.2,   1.5]
+CARLO constraints                    [14665, 23369, 12394, 13265, 13263, 13793,  9262, 10133,  9437,  7340,  6813,  7690,  8217,  8388, 15016, 12047,  3152, 11868, 14316,  7165,  3503, 13958,  7339, 10650,  6114,  9083,  5070,  7869, 10829,  6121,  7339,  2282,  9779,  7861,  9079, 11524,  7341,  6992,  6814, 10650,  9781,  5596, 24938, 13265, 11348, 11698, 12049, 10480, 13620, 12393, 10129,  9431, 15703,  4900, 24762, 23542, 12050, 11699, 10655, 12746,  9602, 15011,  9256, 13963, 11179,  7865,  8907, 11693,  7171,  5948, 10647, 10133, 13800,  8215,  5073, 11878,  5595,  8211,  8388,  5075, 16227, 14310, 11520,  2807, 13095, 12745,  6301, 10127,  4549,  7862,  4375,  3325,  7165,  8036, 14832,  6468,  5247,  9958, 15880, 19544]
+CARLO variables                      [ 4263,  4611,  3480,  3567,  3393,  4089,  3480,  3567,  3567,  2784,  2349,  2958,  3393,  3132,  4524,  3567,  1740,  3132,  4176,  2697,  2001,  3306,  2697,  3132,  2088,  3045,  2088,  3393,  3567,  2697,  2697,  1740,  3045,  2697,  2697,  3480,  2871,  2784,  2436,  3132,  3219,  2436,  4872,  3567,  3306,  3480,  3741,  3480,  4176,  3393,  3219,  3045,  3741,  2436,  4698,  4524,  3828,  3567,  3567,  3828,  2784,  4089,  2958,  3741,  3741,  3045,  2871,  3045,  3219,  2784,  2871,  3567,  4698,  3219,  2349,  4002,  2349,  2871,  3132,  2523,  3915,  3654,  3132,  2001,  3915,  3741,  3219,  3045,  2175,  2784,  2175,  1653,  2697,  2784,  3654,  2610,  2349,  3480,  4002,  4872]
+
+NEW STAT REPORT FOR: disruptions
+Average of disruptions:
+LP: 0.33 CARLO: 0.63 RL First: 32.648936170212764
+
+Standard deviation of disruptions:
+LP: 0.6333245613427605 CARLO: 0.9343982020530649 RL First: 7.42151479463523
+
+Paired LP
+Ttest_relResult(statistic=2.833200844809105, pvalue=0.0055849660780615444)
+p-value %: 0.5584966078061544
+
+Number of Nones: 0
+% Nones: 0.0
+
+Independent LP
+Ttest_indResult(statistic=2.6443567879851093, pvalue=0.00893257848205894)
+p-value %: 0.8932578482058939
+
+Independent RL
+Ttest_indResult(statistic=-41.2996236630133, pvalue=7.899002196370896e-63)
+p-value %: 7.899002196370896e-61
+
+
+
+
+NEW STAT REPORT FOR: time
+Average of time:
+LP: 1.1959710597991944 CARLO: 0.8505542612075806 RL First: 0.2979858732223511
+
+Standard deviation of time:
+LP: 0.7740291588753712 CARLO: 0.24096934355004956 RL First: 0.08877492055235128
+
+Paired LP
+Ttest_relResult(statistic=-5.960769599269749, pvalue=3.873841837859237e-08)
+p-value %: 3.873841837859237e-06
+
+Number of Nones: 0
+% Nones: 0.0
+
+Paired RL
+Ttest_relResult(statistic=35.631785220883685, pvalue=2.8633234613275526e-58)
+p-value %: 2.863323461327553e-56
+
+Independent LP
+Ttest_indResult(statistic=-4.239517672669869, pvalue=4.472055118095407e-05)
+p-value %: 0.004472055118095407
+
+Independent RL
+Ttest_indResult(statistic=21.409445341702206, pvalue=1.061122830815557e-43)
+p-value %: 1.061122830815557e-41
+
+
+
+
+NEW STAT REPORT FOR: constraints
+Average of constraints:
+LP: 36262.01 CARLO: 10245.58 RL First: nan
+
+Standard deviation of constraints:
+LP: 22166.71139997767 CARLO: 4444.031910731515 RL First: nan
+
+Paired LP
+Ttest_relResult(statistic=-14.361050434962225, pvalue=6.030125133356664e-26)
+p-value %: 6.030125133356664e-24
+
+Number of Nones: 0
+% Nones: 0.0
+
+Independent LP
+Ttest_indResult(statistic=-11.450041010662718, pvalue=2.6958789993676702e-20)
+p-value %: 2.69587899936767e-18
+
+Independent RL
+Ttest_indResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+
+
+
+NEW STAT REPORT FOR: variables
+Average of variables:
+LP: 14554.39 CARLO: 3219.0 RL First: nan
+
+Standard deviation of variables:
+LP: 5653.555907382539 CARLO: 707.6475393866639 RL First: nan
+
+Paired LP
+Ttest_relResult(statistic=-22.525254889566366, pvalue=9.521713678044445e-41)
+p-value %: 9.521713678044445e-39
+
+Number of Nones: 0
+% Nones: 0.0
+
+Independent LP
+Ttest_indResult(statistic=-19.795052826421642, pvalue=9.859326084243725e-37)
+p-value %: 9.859326084243725e-35
+
+Independent RL
+Ttest_indResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+
+
+

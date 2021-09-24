@@ -1,0 +1,1022 @@
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+________________________________________________________________________________
+||                                 Arguments                                  ||
+________________________________________________________________________________
+|| flight_distribution_path: pilotRLEnv/data/flight_distribution.json         ||
+|| tr_path: pilotRLEnv/data/Minimized Dataset - All Months/training_requirements.csv||
+|| sim_distribution_path: pilotRLEnv/data/sim_distribution.json               ||
+|| folder: pilotRLEnv/data/Minimized Dataset - All Months/                    ||
+|| flight_data: LocalMissions.csv                                             ||
+|| sim_data: Sims.csv                                                         ||
+|| manual_event_load: False                                                   ||
+|| num_pilots: 87                                                             ||
+|| PA_look_ahead: 7                                                           ||
+|| num_event_types: 13                                                        ||
+|| normalise_state: False                                                     ||
+|| use_pa_matrix: False                                                       ||
+|| modify_terminal_PA: True                                                   ||
+|| use_training_req: True                                                     ||
+|| include_moveup_buffer_vec: False                                           ||
+|| use_event_type: True                                                       ||
+|| pilot_place_wt: 1                                                          ||
+|| buffer_weight: 0.0                                                         ||
+|| moveup_weight: 1.0                                                         ||
+|| mask_actions: True                                                         ||
+|| no_valid_moves: no valid                                                   ||
+|| illegal_action: no illegal                                                 ||
+|| max_duration: 7                                                            ||
+|| avg_assignments_week: 80                                                   ||
+|| flight_density: 1                                                          ||
+|| START_DATE: 2019-06-15                                                     ||
+|| END_DATE: 2020-01-02                                                       ||
+|| seed: 4                                                                    ||
+|| steps_per_epoch: 4000                                                      ||
+|| epochs: 5000                                                               ||
+|| gamma: 0.99                                                                ||
+|| clip_ratio: 0.2                                                            ||
+|| pi_lr: 0.0003                                                              ||
+|| vf_lr: 0.001                                                               ||
+|| train_pi_iters: 80                                                         ||
+|| train_v_iters: 80                                                          ||
+|| lam: 0.97                                                                  ||
+|| max_ep_len: 1000                                                           ||
+|| target_kl: 0.01                                                            ||
+|| save_freq: 100                                                             ||
+|| num_test_rollouts: 10                                                      ||
+|| eval_freq: 10000                                                           ||
+|| dryrun: False                                                              ||
+|| cpu: 50                                                                    ||
+|| log_losses: False                                                          ||
+|| hid: 64                                                                    ||
+|| l: 2                                                                       ||
+________________________________________________________________________________
+Start solving
+
+Objective value = 25.841638401150703
+Problem solved in 221.000000 milliseconds
+Problem solved in 298 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 49.0
+Problem solved in 188.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 384.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 397.000000 milliseconds
+Problem solved in 38 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 353.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.959549888968468
+Problem solved in 235.000000 milliseconds
+Problem solved in 392 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 56.0
+Problem solved in 215.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 474.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -80.0
+Problem solved in 433.000000 milliseconds
+Problem solved in 90 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 455.000000 milliseconds
+Problem solved in 4 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.357476741075516
+Problem solved in 123.000000 milliseconds
+Problem solved in 285 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 39.0
+Problem solved in 114.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 261.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 256.000000 milliseconds
+Problem solved in 39 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 258.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.163769528269768
+Problem solved in 204.000000 milliseconds
+Problem solved in 417 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 41.0
+Problem solved in 174.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 359.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -62.0
+Problem solved in 345.000000 milliseconds
+Problem solved in 51 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -8.0
+Problem solved in 340.000000 milliseconds
+Problem solved in 8 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 17.82918131351471
+Problem solved in 146.000000 milliseconds
+Problem solved in 439 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 38.0
+Problem solved in 136.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -16.0
+Problem solved in 276.000000 milliseconds
+Problem solved in 34 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -50.0
+Problem solved in 277.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 329.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.980726666748524
+Problem solved in 234.000000 milliseconds
+Problem solved in 447 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 46.0
+Problem solved in 228.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodesAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+
+
+Objective value = -2.0
+Problem solved in 401.000000 milliseconds
+Problem solved in 2 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -68.0
+Problem solved in 384.000000 milliseconds
+Problem solved in 66 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 488.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.767350241541862
+Problem solved in 157.000000 milliseconds
+Problem solved in 198 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 40.0
+Problem solved in 127.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 270.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -64.0
+Problem solved in 289.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 332.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 19.746476382017136
+Problem solved in 152.000000 milliseconds
+Problem solved in 434 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 41.0
+Problem solved in 158.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 299.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -70.0
+Problem solved in 286.000000 milliseconds
+Problem solved in 57 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 341.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.9125624448061
+Problem solved in 139.000000 milliseconds
+Problem solved in 299 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 41.0
+Problem solved in 139.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 287.000000 milliseconds
+Problem solved in 7 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -68.0
+Problem solved in 329.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 267.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 14.724157959222794
+Problem solved in 101.000000 milliseconds
+Problem solved in 336 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 31.0
+Problem solved in 96.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 232.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -46.0
+Problem solved in 206.000000 milliseconds
+Problem solved in 38 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 209.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 14.098682150244713
+Problem solved in 77.000000 milliseconds
+Problem solved in 245 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 27.0
+Problem solved in 74.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 163.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -34.0
+Problem solved in 165.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 184.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.224138617515564
+Problem solved in 152.000000 milliseconds
+Problem solved in 354 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 34.0
+Problem solved in 104.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 217.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -46.0
+Problem solved in 221.000000 milliseconds
+Problem solved in 40 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 265.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.005822390317917
+Problem solved in 135.000000 milliseconds
+Problem solved in 392 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 39.0
+Problem solved in 128.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 268.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 268.000000 milliseconds
+Problem solved in 73 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 294.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 15.194622427225113
+Problem solved in 175.000000 milliseconds
+Problem solved in 419 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 34.0
+Problem solved in 128.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 254.000000 milliseconds
+Problem solved in 1 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -52.0
+Problem solved in 258.000000 milliseconds
+Problem solved in 41 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 238.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 23.455330297350883
+Problem solved in 192.000000 milliseconds
+Problem solved in 422 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 51.0
+Problem solved in 215.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 370.000000 milliseconds
+Problem solved in 9 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -86.0
+Problem solved in 389.000000 milliseconds
+Problem solved in 59 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 456.000000 milliseconds
+Problem solved in 6 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 22.807597622275352
+Problem solved in 144.000000 milliseconds
+Problem solved in 309 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 41.0
+Problem solved in 146.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -10.0
+Problem solved in 297.000000 milliseconds
+Problem solved in 17 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -70.0
+Problem solved in 326.000000 milliseconds
+Problem solved in 53 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 333.000000 milliseconds
+Problem solved in 5 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 10.70005339384079
+Problem solved in 55.000000 milliseconds
+Problem solved in 207 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 20.0
+Problem solved in 49.000000 milliseconds
+Problem solved in 0 iterationsAcademic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+Academic license - for non-commercial use only - expires 2022-08-01
+Warning: parameter changes on this environment will not affect existing models.
+
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 117.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -38.0
+Problem solved in 116.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -6.0
+Problem solved in 118.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 18.569199666380882
+Problem solved in 120.000000 milliseconds
+Problem solved in 535 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 35.0
+Problem solved in 119.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -2.0
+Problem solved in 257.000000 milliseconds
+Problem solved in 3 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -54.0
+Problem solved in 318.000000 milliseconds
+Problem solved in 35 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 269.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 21.26703031361103
+Problem solved in 196.000000 milliseconds
+Problem solved in 599 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 48.0
+Problem solved in 169.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -10.0
+Problem solved in 411.000000 milliseconds
+Problem solved in 15 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -74.0
+Problem solved in 367.000000 milliseconds
+Problem solved in 69 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 340.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 16.08830487728119
+Problem solved in 84.000000 milliseconds
+Problem solved in 160 iterations
+Problem solved in 0 branch-and-bound nodes
+
+Start solving
+
+Objective value = 30.0
+Problem solved in 79.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -0.0
+Problem solved in 194.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -36.0
+Problem solved in 231.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+Objective value = -4.0
+Problem solved in 183.000000 milliseconds
+Problem solved in 0 iterations
+Problem solved in 0 branch-and-bound nodes
+
+
+test_disrupt.py -l feasibility -i 20 -p model_wts/s4_d2_m1.0_b0.0.ckpt -d flights_delay -n 50 3 -r 4
+LP disruptions                       [    2,     0,     1,     2,     8,     1,     0,     2,     3,     0,     1,     0,     0,     1,     3,     5,     1,     1,     5,     0]
+LP moveups                           [    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     0]
+LP callups                           [    2,     0,     1,     2,     8,     1,     0,     2,     3,     0,     1,     0,     0,     1,     2,     5,     1,     1,     5,     0]
+LP time                              [  0.2,   0.2,   0.1,   0.2,   0.1,   0.2,   0.1,   0.2,   0.1,   0.1,   0.1,   0.1,   0.1,   0.1,   0.2,   0.2,   0.1,   0.1,   0.2,   0.1]
+LP constraints                       [14665, 17978,  9261, 13265, 11696, 21274, 10828, 12221,  9785,  7861,  6291,  8734, 11001,  9778, 15015, 11177,  4022,  9605, 13794,  6120]
+LP variables                         [ 4263,  4872,  3393,  3567,  3306,  4002,  3480,  3567,  3567,  2697,  2349,  2958,  3393,  2958,  4437,  3567,  1740,  3045,  4176,  2610]
+
+RL_H disruptions                     [   32,    40,    25,    31,    25,    34,    32,    35,    34,    23,    17,    23,    27,    26,    43,    35,    19,    27,    37,    18]
+RL_H moveups                         [    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0]
+RL_H callups                         [   32,    40,    25,    31,    25,    34,    32,    35,    34,    23,    17,    23,    27,    26,    43,    35,    19,    27,    37,    18]
+RL_H time                            [  0.4,   0.5,   0.3,   0.3,   0.3,   0.3,   0.3,   0.3,   0.3,   0.2,   0.2,   0.2,   0.3,   0.2,   0.4,   0.3,   0.1,   0.2,   0.4,   0.2]
+RL_H constraints                     [ None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None]
+RL_H variables                       [ None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None]
+
+CARLO disruptions                    [    1,     2,     0,     4,     0,     1,     0,     0,     2,     0,     0,     0,     0,     0,     2,     3,     3,     0,     0,     2]
+CARLO moveups                        [    0,     0,     0,     0,     0,     0,     0,     0,     1,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0]
+CARLO callups                        [    1,     2,     0,     4,     0,     1,     0,     0,     1,     0,     0,     0,     0,     0,     2,     3,     3,     0,     0,     2]
+CARLO time                           [  2.0,   2.2,   1.4,   1.5,   1.4,   1.6,   1.4,   1.4,   1.3,   1.0,   0.9,   1.2,   1.4,   1.2,   1.8,   1.4,   0.7,   1.1,   1.8,   1.1]
+CARLO constraints                    [14665, 17978,  9261, 13265, 11696, 21274, 10828, 12221,  9785,  7861,  6291,  8734, 11001,  9778, 15015, 11177,  4022,  9605, 13794,  6120]
+CARLO variables                      [ 4263,  4872,  3393,  3567,  3306,  4002,  3480,  3567,  3567,  2697,  2349,  2958,  3393,  2958,  4437,  3567,  1740,  3045,  4176,  2610]
+
+NEW STAT REPORT FOR: disruptions
+Average of disruptions:
+LP: 1.8 CARLO: 1.0 RL First: 29.15
+
+Standard deviation of disruptions:
+LP: 2.0639767440550294 CARLO: 1.2649110640673518 RL First: 7.108269831681969
+
+Paired LP
+Ttest_relResult(statistic=-1.5062060670498942, pvalue=0.148459661313511)
+p-value %: 14.8459661313511
+
+Number of Nones: 0
+% Nones: 0.0
+
+Paired RL
+Ttest_relResult(statistic=-17.66883132624895, pvalue=2.9914771198408854e-13)
+p-value %: 2.991477119840885e-11
+
+Independent LP
+Ttest_indResult(statistic=-1.4405156452576564, pvalue=0.15958557956356043)
+p-value %: 15.958557956356042
+
+Independent RL
+Ttest_indResult(statistic=-16.995022785569876, pvalue=1.9561631338121061e-13)
+p-value %: 1.956163133812106e-11
+
+
+
+
+NEW STAT REPORT FOR: time
+Average of time:
+LP: 0.14819839000701904 CARLO: 1.3918952822685242 RL First: 0.28166588544845583
+
+Standard deviation of time:
+LP: 0.049671031642209394 CARLO: 0.35855620407418654 RL First: 0.07989668003362455
+
+Paired LP
+Ttest_relResult(statistic=17.212988584405846, pvalue=4.780605469457912e-13)
+p-value %: 4.780605469457912e-11
+
+Number of Nones: 0
+% Nones: 0.0
+
+Paired RL
+Ttest_relResult(statistic=17.222908523478633, pvalue=4.731530111231332e-13)
+p-value %: 4.731530111231332e-11
+
+Independent LP
+Ttest_indResult(statistic=14.976363484084422, pvalue=3.0921173851559087e-12)
+p-value %: 3.092117385155909e-10
+
+Independent RL
+Ttest_indResult(statistic=13.173751444626694, pvalue=1.3867300028273072e-11)
+p-value %: 1.3867300028273073e-09
+
+
+
+
+NEW STAT REPORT FOR: constraints
+Average of constraints:
+LP: 11218.55 CARLO: 11218.55 RL First: nan
+
+Standard deviation of constraints:
+LP: 3971.3150023008748 CARLO: 3971.3150023008748 RL First: nan
+
+Paired LP
+Ttest_relResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+Number of Nones: 0
+% Nones: 0.0
+
+Independent LP
+Ttest_indResult(statistic=0.0, pvalue=1.0)
+p-value %: 100.0
+
+Independent RL
+Ttest_indResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+
+
+
+NEW STAT REPORT FOR: variables
+Average of variables:
+LP: 3397.35 CARLO: 3397.35 RL First: nan
+
+Standard deviation of variables:
+LP: 727.1009059958596 CARLO: 727.1009059958596 RL First: nan
+
+Paired LP
+Ttest_relResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+Number of Nones: 0
+% Nones: 0.0
+
+Independent LP
+Ttest_indResult(statistic=0.0, pvalue=1.0)
+p-value %: 100.0
+
+Independent RL
+Ttest_indResult(statistic=nan, pvalue=nan)
+p-value %: nan
+
+
+
+

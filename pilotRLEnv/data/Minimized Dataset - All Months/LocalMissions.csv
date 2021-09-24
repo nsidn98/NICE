@@ -1,0 +1,315 @@
+Type,Crew Type,Premission,Postmission,A,B
+Mission,t10,10-Jan-32,15-Jan-32,False,False
+Local,t11,12-Jan-32,13-Jan-32,False,False
+AD Local,t12,12-Jan-32,14-Jan-32,True,True
+Mission,t10,12-Jan-32,18-Jan-32,False,False
+SOLL Alert,t13,15-Jan-32,25-Jan-32,False,False
+Mission,t10,17-Jan-32,26-Jan-32,False,False
+Local,t11,18-Jan-32,19-Jan-32,False,True
+SOLL Local,t13,18-Jan-32,20-Jan-32,True,True
+AD Local,t12,19-Jan-32,21-Jan-32,True,False
+Local,t11,19-Jan-32,20-Jan-32,False,False
+Mission,t10,20-Jan-32,29-Jan-32,False,False
+SOLL Local,t13,20-Jan-32,22-Jan-32,True,True
+AD Local,t12,20-Jan-32,21-Jan-32,False,False
+Local,t11,21-Jan-32,22-Jan-32,False,False
+Mission,t10,22-Jan-32,08-Feb-32,False,False
+Local,t11,22-Jan-32,23-Jan-32,False,False
+J1 Alert,t14,22-Jan-32,30-Jan-32,False,False
+AD Mission,t15,24-Jan-32,28-Jan-32,False,False
+AD Local,t12,25-Jan-32,26-Jan-32,False,False
+AD Mission,t15,25-Jan-32,30-Jan-32,False,False
+Mission,t10,25-Jan-32,31-Jan-32,False,False
+SOLL Local,t13,25-Jan-32,27-Jan-32,True,True
+SOLL Local,t13,27-Jan-32,29-Jan-32,True,True
+Local,t11,27-Jan-32,28-Jan-32,False,False
+AD Local,t12,27-Jan-32,29-Jan-32,True,False
+Local,t11,27-Jan-32,29-Jan-32,True,True
+Local,t11,27-Jan-32,28-Jan-32,False,True
+Local,t11,28-Jan-32,29-Jan-32,False,False
+Mission,t10,28-Jan-32,02-Feb-32,False,False
+SOLL Alert,t13,29-Jan-32,08-Feb-32,False,False
+Mission,t10,30-Jan-32,08-Feb-32,False,False
+Mission,t10,01-Feb-32,06-Feb-32,False,False
+AD Local,t12,01-Feb-32,02-Feb-32,False,False
+Local,t11,02-Feb-32,03-Feb-32,False,True
+AD Local,t12,03-Feb-32,05-Feb-32,True,False
+SOLL Local,t13,03-Feb-32,05-Feb-32,True,False
+Mission,t10,03-Feb-32,07-Feb-32,False,False
+AD Local,t12,03-Feb-32,05-Feb-32,True,True
+Local,t11,04-Feb-32,06-Feb-32,True,False
+AFRICOM Alert,t10,05-Feb-32,02-Mar-32,False,False
+SOLL Alert,t13,05-Feb-32,15-Feb-32,False,False
+Mission,t10,07-Feb-32,11-Feb-32,False,False
+Mission,t10,07-Feb-32,14-Feb-32,False,False
+Local,t11,08-Feb-32,10-Feb-32,True,True
+AD Local,t12,08-Feb-32,09-Feb-32,False,True
+Local,t11,09-Feb-32,10-Feb-32,False,False
+Local,t11,09-Feb-32,11-Feb-32,True,True
+Local,t11,10-Feb-32,11-Feb-32,False,False
+Local,t11,11-Feb-32,13-Feb-32,True,False
+J1 Alert,t14,12-Feb-32,20-Feb-32,False,False
+Local,t11,12-Feb-32,13-Feb-32,False,False
+Mission,t10,14-Feb-32,20-Feb-32,False,False
+Local,t11,15-Feb-32,16-Feb-32,False,False
+AD Mission,t15,15-Feb-32,20-Feb-32,False,False
+AD Local,t12,15-Feb-32,16-Feb-32,False,False
+Banner Alert,t16,15-Feb-32,18-Feb-32,False,False
+SOLL Local,t13,15-Feb-32,17-Feb-32,True,True
+Local,t11,16-Feb-32,17-Feb-32,False,True
+Local,t11,17-Feb-32,18-Feb-32,False,False
+SOLL Local,t13,17-Feb-32,19-Feb-32,True,True
+Local,t11,18-Feb-32,20-Feb-32,True,False
+SOLL Local,t13,18-Feb-32,20-Feb-32,True,False
+Local,t11,18-Feb-32,20-Feb-32,False,False
+Local,t11,19-Feb-32,20-Feb-32,False,False
+Mission,t16,19-Feb-32,21-Feb-32,False,False
+Local,t11,22-Feb-32,23-Feb-32,False,False
+Local,t11,23-Feb-32,24-Feb-32,False,True
+Local,t11,23-Feb-32,25-Feb-32,False,False
+Local,t11,24-Feb-32,26-Feb-32,False,False
+AD Local,t12,24-Feb-32,25-Feb-32,False,False
+Mission,t10,25-Feb-32,01-Mar-32,False,False
+Local,t11,25-Feb-32,26-Feb-32,False,False
+SOLL Local,t13,25-Feb-32,27-Feb-32,True,True
+Local,t11,26-Feb-32,27-Feb-32,False,False
+SOLL Mission,t13,26-Feb-32,07-Mar-32,False,False
+AD Mission,t15,28-Feb-32,06-Mar-32,False,False
+Local,t11,29-Feb-32,02-Mar-32,False,False
+AD Local,t12,29-Feb-32,01-Mar-32,False,False
+SOLL Local,t13,29-Feb-32,02-Mar-32,True,True
+Mission,t10,29-Feb-32,12-Mar-32,False,False
+Local,t11,01-Mar-32,03-Mar-32,False,False
+Local,t11,01-Mar-32,02-Mar-32,False,False
+Local,t11,02-Mar-32,03-Mar-32,False,False
+SOLL Local,t13,02-Mar-32,04-Mar-32,True,True
+SOLL Local,t13,02-Mar-32,04-Mar-32,True,True
+Mission,t10,03-Mar-32,10-Mar-32,False,False
+Local,t11,03-Mar-32,05-Mar-32,True,False
+AD Local,t12,03-Mar-32,04-Mar-32,False,False
+J1 Alert,t14,04-Mar-32,12-Mar-32,False,False
+SOLL Alert,t13,04-Mar-32,14-Mar-32,False,False
+Mission,t10,05-Mar-32,29-Mar-32,False,False
+SOLL Mission,t13,06-Mar-32,13-Mar-32,False,False
+Local,t11,07-Mar-32,09-Mar-32,True,False
+AD Local,t12,07-Mar-32,08-Mar-32,False,False
+SOLL Local,t13,07-Mar-32,09-Mar-32,True,True
+Mission,t10,07-Mar-32,14-Mar-32,False,False
+Local,t11,08-Mar-32,10-Mar-32,True,False
+Local,t11,08-Mar-32,09-Mar-32,False,False
+Mission,t16,08-Mar-32,09-Mar-32,False,False
+AD Local,t12,08-Mar-32,10-Mar-32,True,False
+Mission,t10,09-Mar-32,16-Mar-32,False,False
+Local,t11,09-Mar-32,10-Mar-32,False,False
+Local,t11,10-Mar-32,11-Mar-32,False,False
+Mission,t10,10-Mar-32,15-Mar-32,False,False
+SOLL Alert,t13,11-Mar-32,21-Mar-32,False,False
+HVAC,t16,14-Mar-32,24-Mar-32,False,False
+HVAC,t16,14-Mar-32,24-Mar-32,False,False
+HVAC,t16,14-Mar-32,24-Mar-32,False,False
+HVAC,t16,14-Mar-32,24-Mar-32,False,False
+HVAC,t16,14-Mar-32,24-Mar-32,False,False
+Mission,t10,14-Mar-32,20-Mar-32,False,False
+Local,t11,15-Mar-32,16-Mar-32,False,False
+Local,t11,15-Mar-32,17-Mar-32,True,False
+Mission,t10,15-Mar-32,22-Mar-32,False,False
+Mission,t16,15-Mar-32,19-Mar-32,False,False
+Mission,t10,20-Mar-32,09-Apr-32,False,False
+Local,t11,22-Mar-32,23-Mar-32,False,False
+AD Mission,t15,22-Mar-32,26-Mar-32,False,False
+Mission,t16,22-Mar-32,31-Mar-32,False,False
+Local,t11,23-Mar-32,25-Mar-32,True,False
+SOLL Local,t13,23-Mar-32,25-Mar-32,True,False
+Mission,t10,23-Mar-32,27-Mar-32,False,False
+AD Mission,t15,23-Mar-32,08-Apr-32,False,False
+SOLL Local,t13,24-Mar-32,26-Mar-32,True,False
+Local,t11,24-Mar-32,25-Mar-32,False,False
+Mission,t16,25-Mar-32,29-Mar-32,False,False
+Mission,t16,25-Mar-32,29-Mar-32,False,False
+Mission,t10,26-Mar-32,21-Apr-32,False,False
+SOLL Mission,t13,27-Mar-32,30-Mar-32,False,False
+SOLL Local,t13,28-Mar-32,30-Mar-32,True,True
+Local,t11,28-Mar-32,29-Mar-32,False,True
+Mission,t16,28-Mar-32,01-Apr-32,False,False
+Local,t11,29-Mar-32,30-Mar-32,False,False
+Local,t11,30-Mar-32,01-Apr-32,True,True
+Local,t11,30-Mar-32,31-Mar-32,False,False
+SOLL Local,t13,30-Mar-32,01-Apr-32,True,True
+Mission,t16,30-Mar-32,07-Apr-32,False,False
+SOLL Local,t13,30-Mar-32,01-Apr-32,True,True
+Local,t11,31-Mar-32,01-Apr-32,False,True
+Local,t11,31-Mar-32,02-Apr-32,True,False
+SOLL Alert,t13,01-Apr-32,11-Apr-32,False,False
+Banner Alert,t10,01-Apr-32,04-Apr-32,False,False
+Mission,t16,01-Apr-32,05-Apr-32,False,False
+Mission,t10,03-Apr-32,13-Apr-32,False,False
+AD Local,t12,04-Apr-32,05-Apr-32,False,False
+SOLL Local,t13,04-Apr-32,06-Apr-32,True,True
+Local,t11,05-Apr-32,06-Apr-32,False,False
+AD Local,t12,05-Apr-32,07-Apr-32,True,True
+Mission,t10,06-Apr-32,09-Apr-32,False,False
+AD Local,t12,06-Apr-32,07-Apr-32,False,False
+SOLL Local,t13,06-Apr-32,08-Apr-32,True,True
+Banner Alert,t10,07-Apr-32,10-Apr-32,False,False
+Local,t11,07-Apr-32,09-Apr-32,True,False
+AD Local,t12,07-Apr-32,08-Apr-32,False,False
+SOLL Mission,t13,08-Apr-32,18-Apr-32,False,False
+Mission,t10,08-Apr-32,12-Apr-32,False,False
+Mission,t10,10-Apr-32,14-Apr-32,False,False
+AD Mission,t15,11-Apr-32,19-Apr-32,False,False
+SOLL Local,t13,11-Apr-32,13-Apr-32,True,True
+Local,t11,11-Apr-32,12-Apr-32,False,False
+Mission,t10,12-Apr-32,24-Apr-32,False,False
+Local,t11,12-Apr-32,13-Apr-32,False,False
+Local,t11,12-Apr-32,14-Apr-32,True,False
+Local,t11,13-Apr-32,14-Apr-32,False,False
+SOLL Alert,t13,15-Apr-32,25-Apr-32,False,False
+Mission,t16,15-Apr-32,16-Apr-32,False,False
+Local,t11,15-Apr-32,16-Apr-32,False,True
+Mission,t10,17-Apr-32,05-May-32,False,False
+AD Local,t12,18-Apr-32,19-Apr-32,False,False
+Mission,t16,18-Apr-32,20-Apr-32,False,False
+Mission,t16,19-Apr-32,24-Apr-32,False,False
+AD Local,t12,19-Apr-32,21-Apr-32,True,False
+AD Local,t12,19-Apr-32,20-Apr-32,False,False
+Local,t11,20-Apr-32,21-Apr-32,False,True
+Local,t11,20-Apr-32,22-Apr-32,False,False
+Local,t11,21-Apr-32,22-Apr-32,False,False
+Local,t11,21-Apr-32,23-Apr-32,True,True
+SOLL Local,t13,21-Apr-32,23-Apr-32,True,True
+SOLL Mission,t13,22-Apr-32,26-Apr-32,False,False
+AFRICOM Alert,t10,24-Apr-32,22-May-32,False,False
+Mission,t10,24-Apr-32,02-May-32,False,False
+Mission,t10,24-Apr-32,03-May-32,False,False
+Local,t11,26-Apr-32,28-Apr-32,True,False
+Local,t11,26-Apr-32,27-Apr-32,False,False
+AD Local,t12,26-Apr-32,27-Apr-32,False,False
+Local,t11,27-Apr-32,28-Apr-32,False,False
+Local,t11,28-Apr-32,30-Apr-32,True,False
+Mission,t10,29-Apr-32,06-May-32,False,False
+Mission,t10,01-May-32,20-May-32,False,False
+SOLL Mission,t13,01-May-32,18-May-32,False,False
+AD Local,t12,02-May-32,03-May-32,False,False
+Local,t11,03-May-32,04-May-32,False,False
+Local,t11,03-May-32,05-May-32,True,False
+Mission,t16,03-May-32,06-May-32,False,False
+Local,t11,04-May-32,05-May-32,False,False
+SOLL Local,t13,04-May-32,06-May-32,True,False
+AD Local,t12,05-May-32,07-May-32,True,False
+Mission,t10,05-May-32,11-May-32,False,False
+Local,t11,05-May-32,06-May-32,False,False
+J1 Alert,t14,06-May-32,14-May-32,False,False
+Local,t11,06-May-32,07-May-32,False,False
+Mission,t10,07-May-32,16-May-32,False,False
+Mission,t16,09-May-32,16-May-32,False,False
+AD Local,t12,09-May-32,10-May-32,False,False
+Mission,t16,10-May-32,15-May-32,False,False
+Local,t11,10-May-32,11-May-32,False,False
+Local,t11,11-May-32,13-May-32,True,False
+SOLL Local,t13,11-May-32,13-May-32,True,True
+AD Local,t12,12-May-32,13-May-32,False,False
+Local,t11,13-May-32,14-May-32,False,False
+SOLL Alert,t13,13-May-32,23-May-32,False,False
+Local,t11,14-May-32,15-May-32,False,False
+Local,t11,15-May-32,16-May-32,False,False
+Local,t11,15-May-32,16-May-32,False,False
+AD Local,t12,16-May-32,17-May-32,False,False
+SOLL Local,t13,16-May-32,18-May-32,True,True
+Local,t11,16-May-32,17-May-32,False,False
+Local,t11,16-May-32,17-May-32,False,False
+AD Local,t12,16-May-32,17-May-32,False,False
+Mission,t10,17-May-32,23-May-32,False,False
+Local,t11,17-May-32,18-May-32,False,False
+Mission,t10,17-May-32,26-May-32,False,False
+Local,t11,17-May-32,18-May-32,False,True
+Local,t11,17-May-32,18-May-32,False,False
+Local,t11,17-May-32,18-May-32,False,False
+Local,t11,17-May-32,18-May-32,False,False
+AD Local,t12,17-May-32,18-May-32,False,False
+Local,t11,17-May-32,18-May-32,False,False
+Local,t11,18-May-32,20-May-32,True,False
+AD Local,t12,18-May-32,19-May-32,False,False
+Local,t11,18-May-32,19-May-32,False,False
+Local,t11,19-May-32,21-May-32,True,True
+SOLL Local,t13,19-May-32,21-May-32,True,True
+Local,t11,19-May-32,20-May-32,False,False
+Local,t11,21-May-32,22-May-32,False,False
+Mission,t10,22-May-32,28-May-32,False,False
+Mission,t10,22-May-32,29-May-32,False,False
+SOLL Local,t13,24-May-32,26-May-32,True,True
+Local,t11,24-May-32,26-May-32,True,False
+Mission,t10,24-May-32,21-Jun-32,False,False
+SOLL Local,t13,25-May-32,27-May-32,True,True
+AD Local,t12,25-May-32,26-May-32,False,False
+AD Local,t12,25-May-32,26-May-32,False,False
+SOLL Local,t13,26-May-32,28-May-32,False,False
+Local,t11,26-May-32,27-May-32,False,True
+SOLL Alert,t13,27-May-32,06-Jun-32,False,False
+J1 Alert,t14,27-May-32,04-Jun-32,False,False
+SOLL Local,t13,30-May-32,01-Jun-32,True,True
+AD Local,t12,30-May-32,31-May-32,False,True
+SOLL Mission,t13,31-May-32,04-Jun-32,True,True
+Mission,t10,31-May-32,07-Jun-32,False,False
+Mission,t16,31-May-32,06-Jun-32,False,False
+Local,t11,31-May-32,01-Jun-32,False,False
+Local,t11,01-Jun-32,02-Jun-32,False,False
+AD Local,t12,01-Jun-32,03-Jun-32,True,False
+Mission,t10,02-Jun-32,07-Jun-32,False,False
+Local,t11,02-Jun-32,03-Jun-32,False,False
+SOLL Alert,t13,03-Jun-32,13-Jun-32,False,False
+Local,t11,03-Jun-32,04-Jun-32,False,True
+Local,t11,03-Jun-32,04-Jun-32,False,True
+Mission,t16,06-Jun-32,07-Jun-32,False,False
+Local,t11,06-Jun-32,07-Jun-32,False,False
+Local,t11,07-Jun-32,09-Jun-32,True,False
+SOLL Alert,t13,10-Jun-32,20-Jun-32,False,False
+Banner Alert,t10,11-Jun-32,15-Jun-32,False,False
+AD Mission,t15,12-Jun-32,18-Jun-32,True,False
+Mission,t10,13-Jun-32,23-Jun-32,False,False
+Local,t11,13-Jun-32,14-Jun-32,False,False
+Mission,t10,13-Jun-32,20-Jun-32,False,False
+Mission,t10,13-Jun-32,24-Jun-32,False,False
+Mission,t10,14-Jun-32,17-Jun-32,False,False
+AD Local,t12,14-Jun-32,16-Jun-32,True,False
+Local,t11,14-Jun-32,15-Jun-32,False,False
+Local,t11,14-Jun-32,16-Jun-32,True,False
+Local,t11,15-Jun-32,17-Jun-32,True,False
+SOLL Local,t13,16-Jun-32,18-Jun-32,True,True
+Local,t11,16-Jun-32,17-Jun-32,False,False
+Local,t11,16-Jun-32,18-Jun-32,True,False
+J1 Alert,t14,17-Jun-32,25-Jun-32,False,False
+AD Mission,t15,17-Jun-32,23-Jun-32,False,False
+Banner Alert,t10,19-Jun-32,22-Jun-32,False,False
+Mission,t10,20-Jun-32,02-Jul-32,False,False
+SOLL Local,t13,20-Jun-32,22-Jun-32,False,False
+SOLL Local,t13,20-Jun-32,22-Jun-32,True,True
+Local,t11,20-Jun-32,21-Jun-32,False,False
+Local,t11,21-Jun-32,22-Jun-32,False,True
+SOLL Local,t13,22-Jun-32,24-Jun-32,True,True
+Local,t11,22-Jun-32,23-Jun-32,False,False
+Local,t11,22-Jun-32,24-Jun-32,True,False
+Mission,t10,23-Jun-32,29-Jun-32,False,False
+Local,t11,23-Jun-32,24-Jun-32,False,False
+Local,t11,23-Jun-32,25-Jun-32,True,False
+SOLL Alert,t13,24-Jun-32,04-Jul-32,False,False
+Local,t11,24-Jun-32,25-Jun-32,False,True
+Mission,t16,25-Jun-32,30-Jun-32,False,False
+SOLL Local,t13,27-Jun-32,29-Jun-32,True,True
+Local,t11,27-Jun-32,28-Jun-32,False,False
+Local,t11,27-Jun-32,29-Jun-32,True,True
+Local,t11,28-Jun-32,29-Jun-32,False,False
+Mission,t10,28-Jun-32,01-Jul-32,False,False
+AD Local,t12,28-Jun-32,30-Jun-32,True,False
+AD Local,t12,28-Jun-32,30-Jun-32,True,False
+SOLL Local,t13,29-Jun-32,01-Jul-32,True,True
+Mission,t10,29-Jun-32,05-Jul-32,False,False
+AD Local,t12,29-Jun-32,30-Jun-32,False,False
+SOLL Mission,t13,30-Jun-32,05-Jul-32,False,False
+SOLL Alert,t13,01-Jul-32,11-Jul-32,False,False
+Banner Alert,t10,02-Jul-32,07-Jul-04,False,False
+AD Local,t12,04-Jul-32,05-Jul-32,False,False
+Mission,t10,04-Jul-32,11-Jul-32,False,False
+Banner Alert,t10,06-Jul-32,10-Jul-32,False,False
+SOLL Alert,t13,08-Jul-32,18-Jul-32,False,False
+J1 Alert,t14,08-Jul-32,16-Jul-32,False,False
+Mission,t10,09-Jul-32,31-Jul-32,False,False

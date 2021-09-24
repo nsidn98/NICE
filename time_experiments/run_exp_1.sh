@@ -1,0 +1,4 @@
+gtimeout 90m python3 test_disrupt.py -l buffer -i 10 -p model_wts/s0_d1_m0.0_b1.0.ckpt -d flights_delay -n 75 3 -r 2 -c 2 > time_experiments/buffer3.txt;
+gtimeout 90m python3 test_disrupt.py -l buffer -i 10 -p model_wts/s0_d1_m0.0_b1.0.ckpt -d flights_delay -n 100 3 -r 2 -c 2 > time_experiments/buffer4.txt;
+gtimeout 90m python3 test_disrupt.py -l buffer -i 10 -p model_wts/s0_d1_m0.0_b1.0.ckpt -d flights_delay -n 25 3 -r 2 -c 2 > time_experiments/buffer1.txt;
+gtimeout 90m python3 test_disrupt.py -l buffer -i 10 -p model_wts/s0_d1_m0.0_b1.0.ckpt -d flights_delay -n 50 3 -r 2 -c 2 > time_experiments/buffer2.txt 
