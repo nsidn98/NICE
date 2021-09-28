@@ -1,5 +1,5 @@
 # NICE: Neural network Integer programming Coefficient Extraction
-Official codebase for the paper "NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming".
+Official codebase for our [paper](https://arxiv.org/abs/2109.12171) "NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming". 
 
 # Abstract:
 Integer  programs  provide  a  powerful  abstraction  for  representing a wide range of real-world scheduling problems. Despite their ability to model general scheduling problems, solving large-scale integer programs (IP) remains a computational challenge  in  practice.  The  incorporation  of  more  complex objectives  such  as  robustness  to  disruptions  further  exacerbates the computational challenge. We present NICE (Neural network IP Coefficient Extraction), a novel technique that combines reinforcement learning and integer programming to tackle  the  problem  of  robust  scheduling.  More  specifically, NICE uses reinforcement learning to approximately represent complex objectives in an integer programming formulation. We use NICE to determine assignments of pilots to a flight crew schedule so as to reduce the impact of disruptions. We compare NICE with (1) a baseline integer programming formulation  that  produces  a  feasible  crew  schedule,  and  (2) a robust integer programming formulation that explicitly tries to minimize the impact of disruptions. Our experiments show that NICE produces schedules that are more robust to disruptions than the baseline formulation, with computation times that are lower than those of the robust integer program.
@@ -47,3 +47,15 @@ For the model training (all of the experiments in the `training_scripts` folder)
 -  `constrained_experiment`:
    -  `run_exp.sh` runs the experiments in the constrained scheduling environment (where the scheduling density is 2).
    -  `delayed_{X}_buffer_exp.txt` is the result of the experiment where `X`% of the flights are delayed. We did not compare against the buffer IP because, as the time experiments show, the buffer cannot produce a single schedule within 90 minutes of running in this environment.
+
+If you find this code useful, please consider citing our paper:
+```
+@misc{kenworthy2021nice,
+      title={NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming}, 
+      author={Luke Kenworthy and Siddharth Nayak and Christopher Chin and Hamsa Balakrishnan},
+      year={2021},
+      eprint={2109.12171},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
