@@ -1,6 +1,3 @@
 theme: jekyll-theme-cayman
 title: NICE
-description: |
-            Luke Kenworthy<sup>1</sup>, Siddharth Nayak<sup>1</sup>, Christopher Chin<sup>1</sup>, Hamsa Balakrishnan<sup>1</sup>
-            
-            MIT, USAF-MIT AI Accelerator
+description: "Luke Kenworthy<sup>1</sup>, Siddharth Nayak<sup>2</sup>, Christopher Chin<sup>2</sup>, Hamsa Balakrishnan<sup>2</sup> \n <sup>1</sup>MIT, <sup>2</sup>USAF-MIT AI Accelerator"
