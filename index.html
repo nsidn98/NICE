@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>NICE</title>
+
+    <meta name="description" content="NICE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--FACEBOOK-->
+    <!-- <meta property="og:image" content="img/twitter-card.jpg"> -->
+    <!-- <meta property="og:image:type" content="image/png"> -->
+    <!-- <meta property="og:image:width" content="1024"> -->
+    <!-- <meta property="og:image:height" content="512"> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nsidn98.github.io/NICE/" />
+    <meta property="og:title" content="NICE" />
+    <meta property="og:description"
+        content="Project page for NICE: Robust Scheduling through Reinforcement Learning-Guided Integer
+        Programming." />
+
+    <!--TWITTER-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="https://nsidn98.github.io/NICE/" />
+    <meta name="twitter:title" content="NICE" />
+    <meta name="twitter:description"
+        content="Project page for NICE: Robust Scheduling through Reinforcement Learning-Guided Integer
+        Programming." />
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-5H2C4DFSMD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5H2C4DFSMD');
+    </script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                NICE: Robust Scheduling through Reinforcement Learning <br>
+                Guided Integer Programming. </br>
+                <small>
+                    AAAI 2022
+                </small>
+            </h2>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://www.linkedin.com/in/luke-kenworthy-7909b2163/">
+                            Luke Kenworthy
+                        </a>
+                        </br>MIT-Air Force AI Accelerator
+                    </li>
+                    <li>
+                        <a href="https://nsidn98.github.io">
+                            Siddharth Nayak
+                        </a>
+                        </br>MIT
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/chris-chin-9702a05b/">
+                            Christopher Chin
+                        </a>
+                        </br>MIT
+                    </li>
+                    <li>
+                        <a href="https://www.mit.edu/~hamsa/index.html">
+                            Hamsa Balakrishnan
+                        </a>
+                        </br>MIT
+                    </li>
+                </ul>
+
+                <!-- *denotes equal contribution -->
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <ul class="nav nav-pills nav-justified">
+                    <li>
+                        <a href="https://arxiv.org/abs/2109.12171">
+                            <image src="img/nice_paper_png.png" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/nsidn98/NICE">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0">
+                            <image src="img/ppt.png" height="60px">
+                                <h4><strong>Slides</strong></h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <image src="img/yt.png" height="60px">
+                                <h4><strong>YouTube</strong></h4>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <!-- <image src="img/fig_1.jpg" class="img-responsive" alt="overview"><br> -->
+                    <p class="text-justify">
+                        Integer programs provide a powerful abstraction for representing 
+                        a wide range of real-world scheduling problems. Despite 
+                        their ability to model general scheduling problems, 
+                        solving large-scale integer programs (IP) remains a computational 
+                        challenge in practice. The incorporation of more complex objectives 
+                        such as robustness to disruptions further exacerbates the computational 
+                        challenge. We present <b>NICE</b>  (Neural network IP Coefficient Extraction), 
+                        a novel technique that combines reinforcement learning and 
+                        integer programming to tackle the problem of robust scheduling. 
+                        More specifically, NICE uses reinforcement learning to approximately 
+                        represent complex objectives in an integer programming formulation.  
+                        We use NICE to determine assignments of pilots to a flight 
+                        crew schedule so as to reduce the impact of disruptions. 
+                        We compare NICE with (1) a baseline integer programming 
+                        formulation that produces a feasible crew schedule, and 
+                        (2) a robust integer programming formulation that explicitly 
+                        tries to minimize the impact of disruptions. Our experiments 
+                        show that, across a variety of scenarios, NICE produces 
+                        schedules resulting in 33% to 48% fewer disruptions than 
+                        the baseline formulation. Moreover, in more severely 
+                        constrained scheduling scenarios in which the robust integer 
+                        program fails to produce a schedule within 90 minutes, NICE 
+                        is able to build robust schedules in less than 2 seconds on average.
+                        <br>
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Method
+                </h3>
+                <p class="text-justify">
+
+                <!-- <figure>
+                    <image src="img/fig_2.jpg" class="img-responsive" onmouseover="this.src='img/fig_2_hover.jpg'"
+                        onmouseout="this.src='img/fig_2.jpg'" alt="" />
+                    <figcaption><b><br>Method overview.</b> Hover mouse pointer to see details.</figcaption>
+                </figure> -->
+                <center>
+                    <figure>
+                        <image src="img/extract-labeled.png" class="center" alt="The weight extraction method" height="340"/>
+                        <figcaption><b><br>Method overview.</b> NICE figure lol.</figcaption>
+                    </figure>
+                </center>
+                <p class="text-justify">
+                    <br /> <b>NICE</b> consists of two stages: lorem ipsum <br>
+
+                    <br>We show that NICE performs better in disruptions than the baseline formulation.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Video at AAAI 2022
+                </h3>
+
+                <br>
+                <p align="center">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <!-- width="500" height="281" -->
+                    https://www.youtube.com/watch?v=dQw4w9WgXcQ
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+
+                </p>
+
+                <br> Presented at the AAAI 2022 <a href="https://aaai.org/Conferences/AAAI-22/">Main track</a>.
+                <br>
+                <table align=center width=800px>
+                    <br>
+                    <tr>
+                        <center>
+                            <span style="font-size:22px">&nbsp;<a
+                                    href='https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0'>[Slides]</a>
+                </table>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <br />If you find our code or datasets useful in your research, please cite the following:
+                <br />
+                <br />
+                <div class="form-group col-md-12 col-md-offset-0">
+                    <textarea id="bibtex" class="form-control" rows="13" readonly>
+@article{DBLP:journals/corr/abs-2109-12171,
+    author    = {Luke Kenworthy and Siddharth Nayak and Christopher Chin and Hamsa Balakrishnan},
+    title     = {{NICE:} Robust Scheduling through Reinforcement Learning-Guided Integer Programming},
+    journal   = {CoRR},
+    volume    = {abs/2109.12171},
+    year      = {2021},
+    url       = {https://arxiv.org/abs/2109.12171},
+    eprinttype = {arXiv},
+    eprint    = {2109.12171},
+    timestamp = {Mon, 04 Oct 2021 17:22:25 +0200},
+    biburl    = {https://dblp.org/rec/journals/corr/abs-2109-12171.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org}
+    }                        
+    </textarea>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="form-group col-md-12 col-md-offset-0">
+                    <textarea id="bibtex" class="form-control" rows="6" readonly>
+@mastersthesis{Chin2021,
+    author  = "Christopher Ho-Yen Chin",
+    title   = "Disruptions and Robustness in Air Force Crew Scheduling",
+    school  = "MIT",
+    year    = "2021"
+    }
+    </textarea>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Related Links
+                </h3>
+                <p class="text-justify">
+                    <br />The buffer formulation was introduced by 
+                        <a href="https://dspace.mit.edu/handle/1721.1/139538">Christopher Chin.
+                        (2021)</a>, for the robust crew-scheduling problem.<br />
+
+                    <br /> Integer programming formulation for different 
+                    objective functions was introduced by <a href="https://hdl.handle.net/1721.1/139080">Matthew Koch 
+                        (2021)</a>.<br />
+
+                    <br />
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                    <br />This research was sponsored by the United
+                    States Air Force Research Laboratory and was accomplished
+                    under Cooperative Agreement Number FA8750-19-2-1000.
+                    The views and conclusions contained in this document are
+                    those of the authors and should not be interpreted as 
+                    representing the official policies, either expressed or implied,
+                    of the United States Air Force or the U.S. Government.
+                    The U.S. Government is authorized to reproduce and distribute 
+                    reprints for Government purposes notwithstanding
+                    any copyright notion herein.
+                    <br />
+                    <br /> This website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a> and
+                    <a href="https://www.matthewtancik.com">Matthew Tannick</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
