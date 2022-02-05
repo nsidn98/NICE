@@ -1,5 +1,8 @@
 # NICE: Neural network Integer programming Coefficient Extraction
-Official codebase for our [paper](https://arxiv.org/abs/2109.12171) "NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming". 
+Official codebase for our [paper](https://arxiv.org/abs/2109.12171) "NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming" accepted at AAAI 2022
+
+[Project Page](https://nsidn98.github.io/NICE/) | [AAAI 2022 Paper](https://arxiv.org/abs/2109.12171)
+
 
 # Abstract:
 Integer  programs  provide  a  powerful  abstraction  for  representing a wide range of real-world scheduling problems. Despite their ability to model general scheduling problems, solving large-scale integer programs (IP) remains a computational challenge  in  practice.  The  incorporation  of  more  complex objectives  such  as  robustness  to  disruptions  further  exacerbates the computational challenge. We present NICE (Neural network IP Coefficient Extraction), a novel technique that combines reinforcement learning and integer programming to tackle  the  problem  of  robust  scheduling.  More  specifically, NICE uses reinforcement learning to approximately represent complex objectives in an integer programming formulation. We use NICE to determine assignments of pilots to a flight crew schedule so as to reduce the impact of disruptions. We compare NICE with (1) a baseline integer programming formulation  that  produces  a  feasible  crew  schedule,  and  (2) a robust integer programming formulation that explicitly tries to minimize the impact of disruptions. Our experiments show that NICE produces schedules that are more robust to disruptions than the baseline formulation, with computation times that are lower than those of the robust integer program.
@@ -50,12 +53,17 @@ For the model training (all of the experiments in the `training_scripts` folder)
 
 If you find this code useful, please consider citing our paper:
 ```
-@misc{kenworthy2021nice,
-      title={NICE: Robust Scheduling through Reinforcement Learning-Guided Integer Programming}, 
-      author={Luke Kenworthy and Siddharth Nayak and Christopher Chin and Hamsa Balakrishnan},
-      year={2021},
-      eprint={2109.12171},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
+@article{DBLP:journals/corr/abs-2109-12171,
+    author    = {Luke Kenworthy and Siddharth Nayak and Christopher Chin and Hamsa Balakrishnan},
+    title     = {{NICE:} Robust Scheduling through Reinforcement Learning-Guided Integer Programming},
+    journal   = {CoRR},
+    volume    = {abs/2109.12171},
+    year      = {2021},
+    url       = {https://arxiv.org/abs/2109.12171},
+    eprinttype = {arXiv},
+    eprint    = {2109.12171},
+    timestamp = {Mon, 04 Oct 2021 17:22:25 +0200},
+    biburl    = {https://dblp.org/rec/journals/corr/abs-2109-12171.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org}
+    }               
 ```
