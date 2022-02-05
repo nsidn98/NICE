@@ -142,7 +142,6 @@
                 <h3>
                     Abstract
                 </h3>
-                <!-- <image src="img/fig_1.jpg" class="img-responsive" alt="overview"><br> -->
                     <p class="text-justify">
                         Integer programs provide a powerful abstraction for representing 
                         a wide range of real-world scheduling problems. Despite 
@@ -175,9 +174,134 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
+                    Motivation
+                </h3>
+                <!-- <image src="img/fig_1.jpg" class="img-responsive" alt="overview"><br> -->
+                    <p class="text-justify">
+                        <u><b>Baseline Integer Programming (IP)</b></u>: these can be easily 
+                        constructed for simpler crew-scheduling problems due to 
+                        the ease in encoding the objectives and constraints. But 
+                        these methods fail when there is uncertainty. Specifically, 
+                        if there are disruptions in the flights, a new solution 
+                        with new assignments has to be created. A simple objective 
+                        function for assigning pilots to flights could be: 
+                        <br> 
+                            <center>
+                                <img src="https://latex.codecogs.com/svg.image?\max&space;\sum\limits_{i\in&space;I}\sum\limits_{s\in&space;S}&space;X_{is}" 
+                                title="\max \sum\limits_{i\in I}\sum\limits_{s\in S} X_{is}" 
+                                class="center" alt="Baseline IP objective"/>
+                            </center>
+                        <br>
+                        where we maximize the number of pilots getting assigned 
+                        to slots in flights. Here 𝐼 is the set of pilots, 𝑆 is 
+                        the set of slots in flights.
+                        <br>
+                        <br>
+
+                        <u><b>Robust Buffer Formulation</b></u>: one can use a 
+                        more sophisticated IP formulation to account for these 
+                        disruptions. To alleviate the effect of disruptions, one 
+                        could try to maximize the buffers between successive flights 
+                        the pilots get assigned to so that any overflow caused due 
+                        to delays in flights will have some buffer time. Here, 
+                        one could use an objective function like: 
+                        <br> 
+                            <center>
+                                <img src="https://latex.codecogs.com/svg.image?\max&space;\sum\limits_{i\in&space;I}\sum\limits_{f,f'\in&space;F\times&space;F}&space;b_{iff'}B_{iff'}" 
+                                title="\max \sum\limits_{i\in I}\sum\limits_{f,f'\in F\times F} b_{iff'}B_{iff'}" 
+                                class="center" alt="Robust buffer IP objective"/>
+                            </center>
+                        <br>
+                        where the objective function is penalizes for having 
+                        smaller buffers. But as the problem becomes more complex, 
+                        the time required to get the solution increases and quickly 
+                        becomes intractable. Here 𝐹 is the set of flights, 𝑏_(𝑖𝑓𝑓^′ )  
+                        is the buffer penalty.
+                        <br>
+                        <br>
+
+                        <u><b>Reinforcement Learning (RL)</b></u>: Another 
+                        possible solution would be to use RL to create schedules 
+                        where the flights are shown sequentially in chronological 
+                        order and the agent has to choose pilots. Here, the agent 
+                        can be rewarded according to whatever objective function 
+                        we want to optimize. Although, this works well, the IP 
+                        methods perform better to give a solution in a reasonable 
+                        amount of time. 
+                        <br>
+                        <br>
+
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
                     Method
                 </h3>
                 <p class="text-justify">
+                    <u><b>Knowledge Distillation</b></u>: Hinton et al. [1] show 
+                    that the probabilities in a neural network’s output layer 
+                    carries useful information even if only the maximum probability 
+                    value is used for downstream tasks like classification.
+                    <br>
+
+                    Instead of letting the RL agent take actions in the environment, 
+                    we use the probability distribution over the choice of pilots 
+                    to guide the IP.
+
+                    <center>
+                        <figure>
+                            <image src="img/rl_mdp.png" class="center" alt="The MDP for RL agent" height="340"/>
+                            <figcaption><b><br>Method overview.</b> NICE figure lol.</figcaption>
+                        </figure>
+                    </center>
+
+                    <br>
+                    The objective function is modified to:
+                    <br>
+                    <br> 
+                            <center>
+                                <img src="https://latex.codecogs.com/svg.image?\max&space;\sum\limits_{i\in&space;I}\sum\limits_{s\in&space;S}&space;a_{is}X_{is}" 
+                                title="\max \sum\limits_{i\in I}\sum\limits_{s\in S} a_{is}X_{is}" 
+                                class="center" alt="Modified NICE IP objective"/>
+                            </center>
+                    <br>
+                    where 𝑎_𝑖𝑠 are the probabilities for assigning pilot 𝑖 to slot 𝑠. 
+                    The probability values are obtained from the final layer of the RL agent’s network.
+                    
+                    <br>
+                    <br>
+
+                    <u><b>Probability Weight Extraction</b></u>: Two different 
+                    methods are used to extract the weights from the RL agent
+                    <br>
+                    
+                    <ol>
+                        <li>
+                            <u><b>Blank State Method</b></u>: This approach exploits the 
+                            fact that the probability weights for the pilots produced by 
+                            the first slot do not depend on any previous actions taken. 
+                            Here, each slot is treated as the first scheduled slot. To 
+                            do so, for each slot in the fixed order a new RL agent with 
+                            the same underlying neural network is initialized cutting out 
+                            all the states that occur before extracting the probability 
+                            values 𝑎_𝑖𝑠
+                            <br>
+                        </li>
+                    
+                        <li>
+                            <u><b>Monte Carlo Method</b></u>: The scheduler is run 𝑛 times, 
+                            shuffling the order of slots each time. Then, the probability 
+                            values from the output layer are averaged across the 𝑛 runs. 
+                            These coefficients are then passed to the IP solver to obtain 
+                            the NICE-generated schedule.
+                        </li>
+                    </ol>
+                    <br>
+                    <br>
+
 
                 <!-- <figure>
                     <image src="img/fig_2.jpg" class="img-responsive" onmouseover="this.src='img/fig_2_hover.jpg'"
@@ -186,15 +310,64 @@
                 </figure> -->
                 <center>
                     <figure>
-                        <image src="img/extract-labeled.png" class="center" alt="The weight extraction method" height="340"/>
+                        <image src="img/extract-labeled.png" class="center" alt="The weight extraction method" height="450"/>
                         <figcaption><b><br>Method overview.</b> NICE figure lol.</figcaption>
                     </figure>
                 </center>
-                <p class="text-justify">
-                    <br /> <b>NICE</b> consists of two stages: lorem ipsum <br>
+                
+                <br>
+                <br>
 
-                    <br>We show that NICE performs better in disruptions than the baseline formulation.
-                </p>
+                <center>
+                    <figure>
+                        <image src="img/alg_pseudo.png" class="center" alt="A rough pseudocode" height="600"/>
+                        <figcaption><b><br>Pseudocode for NICE.</b> Change from screenshot to a "nice" render.</figcaption>
+                    </figure>
+                </center>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Experiments and Results
+                </h3>
+                <!-- <image src="img/fig_1.jpg" class="img-responsive" alt="overview"><br> -->
+                    <p class="text-justify">
+                        We perform the experiments as follows:
+                        <ul>
+                            <li> Generate one week's worth of flights </li>
+                            <li> Schedule with baseline IP, RL scheduler, buffer IP and NICE</li>
+                            <li> One day into the schedule delay f% of the flights that had not already left</li>
+                            <li> Fix delays with disruption minimizing IP</li>
+                            <li> Count the disruptions with each scheduling method</li>
+                        </ul>
+
+                        <br>
+
+                        <center>
+                            <figure>
+                                <image src="img/res1.png" class="center" alt="The weight extraction method" height="200"/>
+                                <figcaption><b><br>Table 1</b>: With scheduling density same as the training dataset, 
+                                    both NICE and Buffer IP take &#60 0.85 seconds on average. </figcaption>
+                            </figure>
+                        </center>
+
+                        <br>
+
+                        <center>
+                            <figure>
+                                <image src="img/res2.png" class="center" alt="The weight extraction method" height="200"/>
+                                <figcaption><b><br>Table 2</b>: With scheduling density twice as the training dataset, 
+                                    NICE gives a solution in 1.85-1.90 seconds on average whereas Buffer IP fails to 
+                                    produce even a single schedule timing out after 90 minutes.
+                                </figcaption>
+                            </figure>
+                        </center>
+
+                    </p>
             </div>
         </div>
 
@@ -225,6 +398,17 @@
                             <span style="font-size:22px">&nbsp;<a
                                     href='https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0'>[Slides]</a>
                 </table>
+                
+                <embed src="https://drive.google.com/viewerng/
+                viewer?embedded=true&url=https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0" width="500" height="375">
+                <h1>PDF Example with iframe</h1>
+                    <iframe src="https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0" width="100%" height="500px">
+                </iframe>
+                <p>
+                    Open a PDF file 
+                    <a href="/img/nice-slides.pdf">example</a>.
+                </p>
+
             </div>
         </div>
 
@@ -285,7 +469,9 @@
                     <br /> Integer programming formulation for different 
                     objective functions was introduced by <a href="https://hdl.handle.net/1721.1/139080">Matthew Koch 
                         (2021)</a>.<br />
-
+                    
+                    <br /> <a href="https://vimeo.com/476994227/cd722a770a"> Talk</a> by Christopher Chin on AI-assisted Optimization 
+                    of Schedules.<br />
                     <br />
                 </p>
             </div>
