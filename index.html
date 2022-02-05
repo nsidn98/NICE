@@ -104,7 +104,7 @@
 
 
         <div class="row">
-            <div class="col-md-4 col-md-offset-4 text-center">
+            <div class="col-md-5 col-md-offset-3 text-center">
                 <ul class="nav nav-pills nav-justified">
                     <li>
                         <a href="https://arxiv.org/abs/2109.12171">
@@ -128,6 +128,13 @@
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                             <image src="img/yt.png" height="60px">
                                 <h4><strong>YouTube</strong></h4>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <image src="img/poster.png" height="60px">
+                                <h4><strong>Poster</strong></h4>
                         </a>
                     </li>
 
@@ -241,20 +248,22 @@
                     Method
                 </h3>
                 <p class="text-justify">
-                    <u><b>Knowledge Distillation</b></u>: Hinton et al. [1] show 
+                    <u><b>Knowledge Distillation</b></u>: <a href="https://arxiv.org/abs/1503.02531">Hinton et al.
+                        (2015)</a> show 
                     that the probabilities in a neural network’s output layer 
                     carries useful information even if only the maximum probability 
-                    value is used for downstream tasks like classification.
-                    <br>
-
-                    Instead of letting the RL agent take actions in the environment, 
+                    value is used for downstream tasks like classification. Instead 
+                    of letting the RL agent take actions in the environment, 
                     we use the probability distribution over the choice of pilots 
                     to guide the IP.
+                    <br>
+
 
                     <center>
                         <figure>
                             <image src="img/rl_mdp.png" class="center" alt="The MDP for RL agent" height="340"/>
-                            <figcaption><b><br>Method overview.</b> NICE figure lol.</figcaption>
+                            <figcaption><b><br>Fig 1:</b> A rough MDP for the RL agent. The RL agent gives a probability 
+                            distribution over the pilots which is used by NICE to boost the integer programming formulation.</figcaption>
                         </figure>
                     </center>
 
@@ -271,6 +280,7 @@
                     where 𝑎_𝑖𝑠 are the probabilities for assigning pilot 𝑖 to slot 𝑠. 
                     The probability values are obtained from the final layer of the RL agent’s network.
                     
+                    <br>
                     <br>
                     <br>
 
@@ -311,7 +321,11 @@
                 <center>
                     <figure>
                         <image src="img/extract-labeled.png" class="center" alt="The weight extraction method" height="450"/>
-                        <figcaption><b><br>Method overview.</b> NICE figure lol.</figcaption>
+                        <figcaption><b><br>Fig 2:</b> The Monte Carlo weight extraction method. Once we train our network, 
+                            we run the scheduler n times, shuffling the order of slots each time. We then average the 
+                            probability values in the output layer across the n runs over pilots and slots to obtain
+                            our NICE coefficients. Finally, we pass these coefficients to the IP solver to obtain our 
+                            NICE-generated schedule.</figcaption>
                     </figure>
                 </center>
                 
@@ -320,8 +334,8 @@
 
                 <center>
                     <figure>
-                        <image src="img/alg_pseudo.png" class="center" alt="A rough pseudocode" height="600"/>
-                        <figcaption><b><br>Pseudocode for NICE.</b> Change from screenshot to a "nice" render.</figcaption>
+                        <image src="img/NICE_psuedocode.png" class="center" alt="A rough pseudocode" height="600"/>
+                        <!-- <figcaption><b><br>Pseudocode for NICE.</b></figcaption> -->
                     </figure>
                 </center>
 
@@ -374,6 +388,38 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>
+                    Conclusions
+                </h3>
+                    <p class="text-justify">
+                        <ul>
+                            <li> 
+                                NICE uses reinforcement learning to approximate 
+                                and simplify computationally difficult integer 
+                                programming problems. It leverages the knowledge 
+                                learned by the RL agent along with utilizing the 
+                                global outlook of the integer programming.
+                            </li>
+
+                            <li> 
+                                NICE is able to produce schedules significantly 
+                                better than the ones obtained by baseline integer 
+                                programming formulations
+                            </li>
+
+                            <li> 
+                                NICE is highly generalizable and can be used 
+                                whenever there is an isomorphism between an 
+                                integer program and a reinforcement learning solution
+                            </li>
+                        </ul>
+                        <br>
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
                     Video at AAAI 2022
                 </h3>
 
@@ -398,18 +444,11 @@
                             <span style="font-size:22px">&nbsp;<a
                                     href='https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0'>[Slides]</a>
                 </table>
-                
-                <iframe src="http://docs.google.com/gview?url=https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 
-                <embed src="https://drive.google.com/viewerng/
-                viewer?embedded=true&url=https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0" width="500" height="375">
-                <h1>PDF Example with iframe</h1>
-                    <iframe src="https://www.dropbox.com/s/ng4bwkschxfovz6/NICE%20Slides.pptx?dl=0" width="100%" height="500px">
-                </iframe>
-                <p>
-                    Open a PDF file 
-                    <a href="/img/nice-slides.pdf">example</a>.
-                </p>
+
+                <object width="800" height="500" type="application/pdf" data="img/nice_slides.pdf?#zoom=60&scrollbar=0&toolbar=0&navpanes=0">
+                    <p>Insert your error message here, if the PDF cannot be displayed.</p>
+                </object>
 
             </div>
         </div>
@@ -464,17 +503,33 @@
                     Related Links
                 </h3>
                 <p class="text-justify">
-                    <br />The buffer formulation was introduced by 
-                        <a href="https://dspace.mit.edu/handle/1721.1/139538">Christopher Chin.
-                        (2021)</a>, for the robust crew-scheduling problem.<br />
+                    <ol>
 
-                    <br /> Integer programming formulation for different 
-                    objective functions was introduced by <a href="https://hdl.handle.net/1721.1/139080">Matthew Koch 
-                        (2021)</a>.<br />
-                    
-                    <br /> <a href="https://vimeo.com/476994227/cd722a770a"> Talk</a> by Christopher Chin on AI-assisted Optimization 
-                    of Schedules.<br />
-                    <br />
+                        <li>
+                            Knowledge Distillation by  
+                            <a href="https://arxiv.org/abs/1503.02531">Hinton et al.
+                            (2015)</a>, where the authors show the importance of the knowledge contained 
+                            in the final layer of neural networks.<br />
+                        </li>
+
+                        <li>
+                            The buffer formulation was introduced by 
+                            <a href="https://dspace.mit.edu/handle/1721.1/139538">Christopher Chin.
+                            (2021)</a>, for the robust crew-scheduling problem.<br />
+                        </li>
+
+                        <li>
+                            Integer programming formulation for different 
+                            objective functions was introduced by <a href="https://hdl.handle.net/1721.1/139080">Matthew Koch 
+                                (2021)</a>.<br />
+                        </li>
+
+                        <li>
+                            <a href="https://vimeo.com/476994227/cd722a770a"> Talk</a> by Christopher Chin on AI-assisted Optimization 
+                            of Schedules.<br />
+                        </li>
+                        <br />
+                    </ol>
                 </p>
             </div>
         </div>
