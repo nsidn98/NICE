@@ -53,19 +53,25 @@ For the model training (all of the experiments in the `training_scripts` folder)
 
 If you find this code useful, please consider citing our paper:
 ```
-@article{DBLP:journals/corr/abs-2109-12171,
-    author    = {Luke Kenworthy and Siddharth Nayak and Christopher Chin and Hamsa Balakrishnan},
-    title     = {{NICE:} Robust Scheduling through Reinforcement Learning-Guided Integer Programming},
-    journal   = {CoRR},
-    volume    = {abs/2109.12171},
-    year      = {2021},
-    url       = {https://arxiv.org/abs/2109.12171},
-    eprinttype = {arXiv},
-    eprint    = {2109.12171},
-    timestamp = {Mon, 04 Oct 2021 17:22:25 +0200},
-    biburl    = {https://dblp.org/rec/journals/corr/abs-2109-12171.bib},
-    bibsource = {dblp computer science bibliography, https://dblp.org}
-    }               
+@inproceedings{DBLP:conf/aaai/KenworthyNCB22,
+  author    = {Luke Kenworthy and
+               Siddharth Nayak and
+               Christopher Chin and
+               Hamsa Balakrishnan},
+  title     = {{NICE:} Robust Scheduling through Reinforcement Learning-Guided Integer
+               Programming},
+  booktitle = {Thirty-Sixth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2022, Thirty-Fourth Conference on Innovative Applications of Artificial
+               Intelligence, {IAAI} 2022, The Twelveth Symposium on Educational Advances
+               in Artificial Intelligence, {EAAI} 2022 Virtual Event, February 22
+               - March 1, 2022},
+  pages     = {9821--9829},
+  publisher = {{AAAI} Press},
+  year      = {2022},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/21218},
+  biburl    = {https://dblp.org/rec/conf/aaai/KenworthyNCB22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}    
 ```
 
 ## Contact Us
