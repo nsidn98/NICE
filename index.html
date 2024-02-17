@@ -452,7 +452,71 @@
 
             </div>
         </div>
+        
+        <br>
+        <br>
 
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Further Experiments on Integer Programming Solutions*
+                </h3>
+                    <p class="text-justify">
+                        After running further experiments with the crew scheduling 
+                        problem, we found that the NICE solver appears to help 
+                        reduce bias in the original dataset with respect to reducing 
+                        disruptions in the face of flight delays. Despite all possible 
+                        pilot assignments having the same objective value, the 
+                        baseline integer programming scheduler (henceforth referred 
+                        to as the “Original Baseline”) of our original paper tended 
+                        to favor solutions that more often included pilots with 
+                        a lower ID value in our original dataset. The Original 
+                        Baseline, where all pilot-event-slot decision variables 
+                        are given a coefficient of one, produces solutions that 
+                        are less robust than other more random baselines. Upon 
+                        further investigation, this tendency of the Original 
+                        Baseline stems from the fact that the decision variables 
+                        were created in order of ascending pilot id from the original 
+                        data set. When we randomly shuffle the order of the decision 
+                        variable creation, creating a “Shuffled Baseline,” this 
+                        modified solver creates schedules that yield either a 
+                        similar number of or fewer disruptions than NICE, on 
+                        average. A similar baseline, the “Normal Distribution 
+                        Baseline,” that sets each coefficient randomly drawn 
+                        from the normal distribution centered on 1 with a standard 
+                        deviation of 0.1 performs comparably. In some instances, 
+                        NICE performs better than these random baselines and, in 
+                        most, NICE performs worse. The Normal Distribution Baseline 
+                        behaves similarly to NICE in that it creates the decision 
+                        variables in the same order and only changes the coefficients. 
+                        Our results, using the same experiments from our original 
+                        paper, are shown in Table <a href="#table3">3</a> and <a href="#table4">4</a>. 
+                        <br>
+                        <span style="font-size: 12px;">*(Updated on 17th Feb 2024)</span> 
+
+
+                        <br>
+                    </p>
+            </div>
+        </div>
+
+        <br>
+        <center>
+            <figure id="table3">
+                <image src="img/table1_redo.png" class="center" alt="Table1-with-results(redo)" width="800"/>
+                <figcaption><b><br>Table 3:</b> Average and standard deviation of disruptions across scheduling methods 
+                    when flights are delayed (lower values are better). Scheduling density of 1.</figcaption>
+            </figure>
+        </center>
+
+        <br>
+        <center>
+            <figure id="table4">
+                <image src="img/table2_redo.png" class="center" alt="Table2-with-results(redo)" width="800"/>
+                <figcaption><b><br>Table 4:</b> Average and standard deviation of disruptions across scheduling methods 
+                    when flights are delayed (lower values are better). Scheduling density of 2.</figcaption>
+            </figure>
+        </center>
 
 
         <div class="row">
